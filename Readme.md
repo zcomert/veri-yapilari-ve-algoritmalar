@@ -17,4 +17,6 @@ Derslere ait tartışmalara katılmak, ek materyallere erişmek ve anlık bildir
 
 ## Uygulama 
 - Değer ve Referans Tipler
-
+- Maths Kütüphanesinin Test Edilmesi
+- Number sınıfının Test Edilmesi
+- Series sınıfının Test Edilmesi
