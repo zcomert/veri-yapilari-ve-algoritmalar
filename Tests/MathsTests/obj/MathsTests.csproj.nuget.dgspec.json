@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj": {}
+    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj": {}
   },
   "projects": {
-    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj": {
+    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
+        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
         "projectName": "Maths",
-        "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\obj\\",
+        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
+        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj": {
+    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj",
+        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj",
         "projectName": "MathsTests",
-        "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj",
-        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\obj\\",
+        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj",
+        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj": {
-                "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj"
+              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj": {
+                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj"
               }
             }
           }
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

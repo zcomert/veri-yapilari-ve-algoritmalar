@@ -9,30 +9,61 @@ public class SeriesTests
     public SeriesTests()
     {
         // Arrange : ifadelerini oluşturunuz.
+        _series = new Series<char>("hello".ToCharArray());
     }
 
     [Fact]
     public void Check_First_Item_In_Series()
     {
-        throw new NotImplementedException();
+        // Arrange
+
+        // Act
+        if (_series.Count == 0)
+            Assert.Throws<InvalidOperationException>(() => _series.FirstItem);
+
+        var result = _series.FirstItem;
+
+        // Asserts
+        Assert.Equal('h', result);
     }
 
     [Fact]
     public void Check_Last_Item_In_Series()
     {
-        throw new NotImplementedException();
+        // Arrange
+
+        // Act
+        if (_series.Count == 0)
+            Assert.Throws<InvalidOperationException>(() => _series.LastItem);
+
+        var result = _series.LastItem;
+
+        // Asserts
+        Assert.Equal('o', result);
     }
 
     [Fact]
     public void Check_Count()
     {
-        throw new NotImplementedException();
+        // Arrange
+
+        // Act
+        var result = _series.Count;
+
+        // Asserts
+        Assert.Equal(5, result);
     }
 
     [Fact]
     public void Check_ToString()
     {
-        throw new NotImplementedException();
+        // Arrange
+
+        // Act
+        var result = _series.ToString();
+
+        // Asserts
+        Assert.Equal("hello", result);
     }
 
     [Fact]
@@ -43,7 +74,7 @@ public class SeriesTests
         var seriesB = new Series<int>(new int[] { 1, 2, 3 });
 
         // Act
-        var result = seriesA.Equals(seriesB);
+        var result = seriesA.MyEquals(seriesB);
 
         // Assert
         Assert.True(result);
