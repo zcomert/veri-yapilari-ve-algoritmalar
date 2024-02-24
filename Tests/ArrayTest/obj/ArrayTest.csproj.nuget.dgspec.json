@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj": {}
+  },
+  "projects": {
+    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
+        "projectName": "Array",
+        "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj",
+        "projectName": "ArrayTest",
+        "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
