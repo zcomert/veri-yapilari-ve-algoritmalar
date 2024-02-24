@@ -11,11 +11,13 @@ public class Series<T>
     {
         get
         {
-            throw new NotImplementedException();
+            if (Count == 0)
+                throw new InvalidOperationException("Array is empty!");
+            return _series[0];
         }
         set
         {
-            throw new NotImplementedException();
+            _series[0] = value;
         }
     }
 
@@ -24,16 +26,18 @@ public class Series<T>
     {
         get
         {
-            throw new NotImplementedException();
+            if (Count == 0)
+                throw new InvalidOperationException("Array is empty!");
+            return _series[Count - 1];
         }
         set
         {
-            throw new NotImplementedException();
+            _series[Count - 1] = value;
         }
     }
 
     // Serideki eleman sayısını temsil etmelidir.
-    public int Count => throw new NotImplementedException();
+    public int Count => _series.Length;
 
     public Series(T[] inputs)
     {
@@ -50,4 +54,13 @@ public class Series<T>
         return s.ToString();
     }
 
+    public bool MyEquals(Series<int> seriesB)
+    {
+        for (int i = 0; i < Count; i++)
+        {
+            if (!_series[i].Equals(seriesB._series[i]))
+                return false;
+        }
+        return true;
+    }
 }

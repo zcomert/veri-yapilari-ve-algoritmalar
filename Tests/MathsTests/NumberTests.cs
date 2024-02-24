@@ -26,39 +26,67 @@ public class NumberTests
         var number = new Number(10);
 
         // Act
-        var result = number.Value;
+        var result = number.Multiply(10);
 
         // Assert 
         Assert.True(true);
         Assert.False(false);
-        Assert.Equal(5, 10);
+        Assert.Equal(result, 100);
     }
 
     [Fact]
     /// Value değerinin kontrolü sağlayacak testi yazınız.
     public void Check_Multiply_With_NoParameter()
     {
-        throw new NotImplementedException();
+        // Arrange
+        var number = new Number(10);
+
+        // Act
+        var result = number.Multiply();
+
+        // Assert 
+        Assert.Equal(result, 20);
     }
 
 
     [Fact]
     public void Check_Number_MinValue()
     {
-        throw new NotImplementedException();
+        // Arrange
+        var number = new Number(10);
+
+        // Act
+        var result = number.MinValue;
+
+        // Assert 
+        Assert.Equal(result, -2147483648);
     }
 
 
     [Fact]
     public void Check_Number_MaxValue()
     {
-        throw new NotImplementedException();
+        // Arrange
+        var number = new Number(10);
+
+        // Act
+        var result = number.MaxValue;
+
+        // Assert 
+        Assert.Equal(result, 2147483647);
     }
 
 
     [Fact]
     public void Check_ToString()
     {
-        throw new NotImplementedException();
+        // Arrange
+        var number = new Number(10);
+
+        // Act
+        var result = number.ToString();
+
+        // Assert 
+        Assert.Equal(result, "10");
     }
 }
