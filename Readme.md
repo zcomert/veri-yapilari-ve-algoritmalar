@@ -20,3 +20,10 @@ Derslere ait tartışmalara katılmak, ek materyallere erişmek ve anlık bildir
 - Maths Kütüphanesinin Test Edilmesi
 - Number sınıfının Test Edilmesi
 - Series sınıfının Test Edilmesi
+
+## Hafta 02
+- Diziler
+- Static Array
+- Dynamic Array
+- Static Array Tests
+- Dynamic Array Tests
