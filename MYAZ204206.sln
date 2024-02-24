@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0A1A23A4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsTests", "Tests\MathsTests\MathsTests.csproj", "{1F3A352F-947A-41A0-90CA-A819361E377B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{38B750BB-3394-40E1-B10A-AF5508B56597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "DataStructures\Array\Array.csproj", "{F728E98E-CB49-419D-9DC1-B5461E873706}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +32,14 @@ Global
 		{1F3A352F-947A-41A0-90CA-A819361E377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F3A352F-947A-41A0-90CA-A819361E377B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F3A352F-947A-41A0-90CA-A819361E377B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F728E98E-CB49-419D-9DC1-B5461E873706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F728E98E-CB49-419D-9DC1-B5461E873706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F728E98E-CB49-419D-9DC1-B5461E873706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F728E98E-CB49-419D-9DC1-B5461E873706}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BF0C6055-19CE-4B34-BE9C-E8D75B77493A} = {55AD87B9-AB4E-47CC-9A91-264037C3048F}
 		{1F3A352F-947A-41A0-90CA-A819361E377B} = {0A1A23A4-D3ED-4BB1-9E0B-CAECCBE65537}
+		{F728E98E-CB49-419D-9DC1-B5461E873706} = {38B750BB-3394-40E1-B10A-AF5508B56597}
 	EndGlobalSection
 EndGlobal
