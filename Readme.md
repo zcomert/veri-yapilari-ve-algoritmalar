@@ -10,6 +10,19 @@ Derslere ait tartışmalara katılmak, ek materyallere erişmek ve anlık bildir
 
 [Discord Kanalına Katılmak için tıklayınız.](https://discord.gg/BfYb6Wg4hv)
 
+## Proje Altyapısı
+Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenmiştir. 
+
+> .net8
+
+> classlib
+
+> xunit
+
+> console
+
+> mvc
+
 ## Hafta 01
 - Veri Yapıları ve Algoritmalara Giriş
 - Veri Tipleri 
