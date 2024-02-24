@@ -1,9 +1,7 @@
 ﻿using System.Collections;
-using DataStructures.Array;
+namespace DataStructures.Array;
 
-namespace Array;
-
-public class StaticArray<T> : IArray<T>, IEnumerable<T>
+public class StaticArray<T> : IArray<T>, IEnumerable
 {
     private T[] _innerArray;
     public StaticArray()
@@ -18,11 +16,16 @@ public class StaticArray<T> : IArray<T>, IEnumerable<T>
         foreach (var item in collection)
         {
             SetItem(i, item);
+            i++;
         }
     }
 
     public int Length => _innerArray.Length;
 
+    public IEnumerator GetEnumerator()
+    {
+        return _innerArray.GetEnumerator();
+    }
 
     public T GetItem(int index)
     {
@@ -46,16 +49,7 @@ public class StaticArray<T> : IArray<T>, IEnumerable<T>
             throw new IndexOutOfRangeException();
     }
 
-    public IEnumerator<T> GetEnumerator()
-    {
-        foreach (var item in _innerArray)
-        {
-            yield return item;
-        }
-    }
 
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return GetEnumerator();
-    }
+
+
 }

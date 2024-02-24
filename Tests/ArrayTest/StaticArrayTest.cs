@@ -1,11 +1,11 @@
-using Array;
+using DataStructures.Array;
 
-namespace ArrayTest;
+namespace ArrayTests;
 
-public class StaticArrayTest
+public class StaticArrayTests
 {
     private StaticArray<char> _array;
-    public StaticArrayTest()
+    public StaticArrayTests()
     {
         // Arrange
         _array = new StaticArray<char>();
