@@ -10,3 +10,15 @@ F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Entities\ob
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Entities\obj\Debug\net8.0\refint\Entities.dll
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Entities\obj\Debug\net8.0\Entities.pdb
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\ref\Entities.dll

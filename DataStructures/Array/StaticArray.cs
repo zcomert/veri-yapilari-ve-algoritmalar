@@ -29,17 +29,13 @@ public class StaticArray<T> : IArray<T>, IEnumerable
 
     public T GetItem(int index)
     {
-        if (index < 0 || index >= _innerArray.Length)
-            throw new IndexOutOfRangeException();
-
+        CheckIndex(index);
         return _innerArray[index];
     }
 
     public void SetItem(int index, T value)
     {
-        if (index < 0 || index >= _innerArray.Length)
-            throw new IndexOutOfRangeException();
-
+        CheckIndex(index);
         _innerArray[index] = value;
     }
 

@@ -21,4 +21,10 @@ public class StaticArrayController : Controller
         _array = new StaticArray<Car>(_context.Cars.ToList());
         return View(_array);
     }
+
+    public IActionResult Car(int id)
+    {
+        var model = new StaticArray<Car>(_context.Cars.ToList()).GetItem(id);
+        return View(model);
+    }
 }

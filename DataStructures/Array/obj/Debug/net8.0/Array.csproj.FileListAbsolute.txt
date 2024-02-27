@@ -10,3 +10,15 @@ F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\A
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.pdb
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.deps.json
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfoInputs.cache
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfo.cs
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.csproj.CoreCompileInputs.cache
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.sourcelink.json
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll

@@ -18,7 +18,11 @@ public class StaticArrayTests
     [Fact]
     public void DefaultConstructor_InitializesArrayWithCorrectLength()
     {
-        throw new NotImplementedException();
+        // Act
+        var length = _array.Length;
+
+        // Assert
+        Assert.Equal(4, length);
     }
 
     [Fact]

@@ -1,0 +1,11 @@
+@startuml StaticArray
+title StaticArray
+
+namespace DataStructures.Array{
+    class StaticArray<T>{
+        -_innerArray:T[]
+        +setItem(index:int,value:T):void
+        +getItem(index:int):T
+    }
+}
+@enduml
