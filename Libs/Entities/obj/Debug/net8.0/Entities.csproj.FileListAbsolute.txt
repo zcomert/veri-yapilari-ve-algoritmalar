@@ -22,3 +22,15 @@ C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debu
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.pdb
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\ref\Entities.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.deps.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\bin\Debug\net8.0\Entities.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\refint\Entities.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\Entities.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Entities\obj\Debug\net8.0\ref\Entities.dll

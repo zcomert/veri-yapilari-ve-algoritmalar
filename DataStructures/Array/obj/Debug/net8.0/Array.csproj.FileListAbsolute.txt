@@ -22,3 +22,15 @@ C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\o
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.pdb
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.deps.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\bin\Debug\net8.0\Array.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfoInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfo.cs
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.csproj.CoreCompileInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6BnaZs6Ij9k+W39J0Srg7vG46r9q5B6+9zjGllSDxt0=",
+  "Hash": "VLNmdE5rXUAtph9ExDtN95Mg4mgJslOVKRbgfLVbyQY=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Web\\wwwroot",
       "Source": "Web",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web.styles.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web.styles.css",
       "SourceId": "Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Web",
       "RelativePath": "Web.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web.styles.css"
+      "OriginalItemSpec": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web.styles.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web.bundle.scp.css",
       "SourceId": "Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Web",
       "RelativePath": "Web.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\css\\site.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\css\\site.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\favicon.ico",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\favicon.ico",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\js\\site.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\js\\site.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

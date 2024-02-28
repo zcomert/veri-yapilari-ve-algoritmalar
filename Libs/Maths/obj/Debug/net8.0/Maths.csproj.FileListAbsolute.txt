@@ -10,3 +10,15 @@ F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Maths\obj\D
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Maths\obj\Debug\net8.0\Maths.pdb
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Maths\obj\Debug\net8.0\ref\Maths.dll
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Libs\Maths\obj\Debug\net8.0\Maths.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\bin\Debug\net8.0\Maths.deps.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\bin\Debug\net8.0\Maths.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\bin\Debug\net8.0\Maths.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.AssemblyInfoInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.AssemblyInfo.cs
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.csproj.CoreCompileInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\refint\Maths.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\Maths.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Libs\Maths\obj\Debug\net8.0\ref\Maths.dll
