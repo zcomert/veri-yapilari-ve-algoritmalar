@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Web
 build_property.RootNamespace = Web
-build_property.ProjectDir = c:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Web\
+build_property.ProjectDir = F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Web
+build_property.MSBuildProjectDirectory = F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Web
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/Home/Index.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/Home/Privacy.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/Shared/Error.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/StaticArray/Car.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/StaticArray/Car.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljQXJyYXlcQ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/StaticArray/Index.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/StaticArray/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljQXJyYXlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/_ViewImports.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/_ViewStart.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/MYAZ204206_Veri_Yapilari_ve_Algoritmalar/Applications/Web/Views/Shared/_Layout.cshtml]
+[F:/zc/Dersler/Veri Yapıları ve Algoritmalar/github_myaz204206/Applications/Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lzldzk1rll

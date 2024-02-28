@@ -1,6 +1,6 @@
-using DataStructures.Array;
+using DataStructures.Array.Contracts;
 
-namespace ArrayTests;
+namespace Tests.ArrayTests;
 
 public class StaticArrayTests
 {

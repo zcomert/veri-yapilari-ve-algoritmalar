@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
+      "projectUniqueName": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
       "projectName": "Maths",
-      "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
-      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\obj\\",
+      "projectPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "F:\\zc\\Dersler\\Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

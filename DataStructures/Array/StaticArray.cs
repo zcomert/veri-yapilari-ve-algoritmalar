@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-namespace DataStructures.Array;
+namespace DataStructures.Array.Contracts;
 
 public class StaticArray<T> : IArray<T>, IEnumerable
 {
@@ -44,8 +44,4 @@ public class StaticArray<T> : IArray<T>, IEnumerable
         if (index < 0 || index >= _innerArray.Length)
             throw new IndexOutOfRangeException();
     }
-
-
-
-
 }

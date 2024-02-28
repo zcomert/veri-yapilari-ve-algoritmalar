@@ -1,4 +1,4 @@
-namespace DataStructures.Array;
+namespace DataStructures.Array.Contracts;
 
 public interface IArray<T>
 {

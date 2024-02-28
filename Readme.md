@@ -37,6 +37,13 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 ## Hafta 02
 - Diziler
 - Static Array
-- Dynamic Array
-- Static Array Tests
-- Dynamic Array Tests
+
+# Uygulama
+- Static Array Testleri
+
+## Hafta 03
+- Diziler
+- Dynamic Array (Array)
+
+# Uygulama 
+- Array Testleri
