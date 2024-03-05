@@ -20,20 +20,25 @@ namespace DataStructures.Array.Contracts{
 
 namespace DataStructures.Array{
     class StaticArray<T>{
-        #_innerArray:T[]
-        +setItem(index:int,value:T):void
-        +getItem(index:int):T
+         #_innerArray:T[]
+        +StaticArray()
+        +StaticArray(collection: IEnumerable<T>)
+        +Length:int
+        +GetEnumerator():IEnumerator
+        +GetItem(index:int):T
+        +SetItem(index:int, value:T):void
+        #CheckIndex(index:int):void
     }
 
     class Array<T>{
-        - int index = 0
-        + int Count
-        + int Capacity
-        + void Add(T value)
-        + T RemoveAt(int position)
-        + void Swap(int position1, int position2)
-        - void CheckDoubleArray()
-        - void ShrinkArray()
+        - index:int
+        + Count:int
+        + Capacity:int
+        + Add(value:T):boid
+        + RemoveAt(position:int):T
+        + Swap(p1:int, p2:int):void
+        - CheckDoubleArray():void
+        - ShrinkArray():void
     }
 }
 
