@@ -5,37 +5,43 @@ namespace Tests.ArrayTests;
 public class ArrayTests
 {
     [Fact]
-    public void Count_Should_Return_Number_of_Elements()
+    public void Add_AddsElement_CountIncreases()
     {
         throw new NotImplementedException();
     }
 
     [Fact]
-    public void Capacity_Should_Return_Capacity_of_Array()
+    public void RemoveAt_RemovesElement_CountDecreases()
     {
         throw new NotImplementedException();
     }
 
     [Fact]
-    public void RemoveAt_Should_Remove_Element_at_Specified_Position()
+    public void RemoveAt_RemovesCorrectElement()
     {
         throw new NotImplementedException();
     }
 
     [Fact]
-    public void Swap_Should_Swap_Elements_at_Specified_Positions()
+    public void RemoveAt_ThrowsIndexOutOfRangeException_WhenIndexOutOfRange()
     {
         throw new NotImplementedException();
     }
 
     [Fact]
-    public void RemoveAt_Should_Throw_Exception_When_Position_Is_Out_of_Range()
+    public void Swap_SwapsElements()
     {
         throw new NotImplementedException();
     }
 
     [Fact]
-    public void Swap_Should_Throw_Exception_When_Positions_Are_Out_of_Range()
+    public void ShrinkArray_DoesNotShrinkCapacity_WhenCountIsGreaterThanQuarterOfCapacity()
+    {
+        throw new NotImplementedException();
+    }
+
+    [Fact]
+    public void ShrinkArray_ShrinksCapacity_WhenCountIsLessThanQuarterOfCapacity()
     {
         throw new NotImplementedException();
     }

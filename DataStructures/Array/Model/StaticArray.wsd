@@ -2,7 +2,7 @@
 title StaticArray
 
 namespace DataStructures.Array.Contracts{
-    interface IArray{
+    interface IArray<T>{
         +Length:int
         +GetItem(index:int):T
         SetItem(index:int, value:T):void
@@ -11,8 +11,10 @@ namespace DataStructures.Array.Contracts{
     interface IDynamicArray<T> {
     + Count: int
     + Capacity: int
+    + Add(value:T):void
     + RemoveAt(position: int): T
     + Swap(position1: int, position2: int): void
+
 }
 }
 
@@ -22,8 +24,22 @@ namespace DataStructures.Array{
         +setItem(index:int,value:T):void
         +getItem(index:int):T
     }
+
+    class Array<T>{
+        - int index = 0
+        + int Count
+        + int Capacity
+        + void Add(T value)
+        + T RemoveAt(int position)
+        + void Swap(int position1, int position2)
+        - void CheckDoubleArray()
+        - void ShrinkArray()
+    }
 }
+
+hide empty members
 
 DataStructures.Array.StaticArray -.up.|> DataStructures.Array.Contracts.IArray : "implements"
 DataStructures.Array.Array -.up.|> DataStructures.Array.StaticArray : "extends"
+DataStructures.Array.Array -.up.|> DataStructures.Array.Contracts.IDynamicArray : "implements"
 @enduml
