@@ -34,3 +34,15 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\Array.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\bin\Debug\net8.0\Array.deps.json
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\bin\Debug\net8.0\Array.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\bin\Debug\net8.0\Array.pdb
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfoInputs.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.AssemblyInfo.cs
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.csproj.CoreCompileInputs.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.sourcelink.json
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\refint\Array.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\Array.pdb
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\DataStructures\Array\obj\Debug\net8.0\ref\Array.dll

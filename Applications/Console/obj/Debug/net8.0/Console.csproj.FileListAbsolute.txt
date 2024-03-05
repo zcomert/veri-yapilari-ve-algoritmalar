@@ -36,3 +36,22 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.genruntimeconfig.cache
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\ref\Console.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Console.exe
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Console.deps.json
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Console.runtimeconfig.json
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Console.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Console.pdb
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Array.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\bin\Debug\net8.0\Array.pdb
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.csproj.AssemblyReference.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.GeneratedMSBuildEditorConfig.editorconfig
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.AssemblyInfoInputs.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.AssemblyInfo.cs
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.csproj.CoreCompileInputs.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.sourcelink.json
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.csproj.Up2Date
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\refint\Console.dll
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.pdb
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\Console.genruntimeconfig.cache
+F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\ref\Console.dll

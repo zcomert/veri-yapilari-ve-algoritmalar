@@ -1,3 +1,4 @@
+using System.Collections;
 using DataStructures.Array.Contracts;
 
 namespace DataStructures.Array;
@@ -17,8 +18,6 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
         index++;
     }
 
-
-
     public T RemoveAt(int position)
     {
         if (position < 0 || position > Count - 1)
@@ -26,7 +25,6 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
             throw new IndexOutOfRangeException();
         }
 
-        ShrinkArray();
 
         var removedItem = _innerArray[position];
 
@@ -36,6 +34,7 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
         {
             Swap(i, i + 1);
         }
+        ShrinkArray();
         index--;
         return removedItem;
     }
