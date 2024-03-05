@@ -1,9 +1,10 @@
 ﻿using System.Collections;
-namespace DataStructures.Array.Contracts;
+using DataStructures.Array.Contracts;
+namespace DataStructures.Array;
 
 public class StaticArray<T> : IArray<T>, IEnumerable
 {
-    private T[] _innerArray;
+    protected T[] _innerArray;
     public StaticArray()
     {
         _innerArray = new T[4];
@@ -39,7 +40,7 @@ public class StaticArray<T> : IArray<T>, IEnumerable
         _innerArray[index] = value;
     }
 
-    private void CheckIndex(int index)
+    protected void CheckIndex(int index)
     {
         if (index < 0 || index >= _innerArray.Length)
             throw new IndexOutOfRangeException();
