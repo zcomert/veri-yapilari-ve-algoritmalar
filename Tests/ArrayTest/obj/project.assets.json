@@ -5524,19 +5524,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\ArrayTest\\ArrayTest.csproj",
+      "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj",
       "projectName": "ArrayTest",
-      "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\ArrayTest\\ArrayTest.csproj",
-      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\ArrayTest\\obj\\",
+      "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\ArrayTest.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\ArrayTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5550,8 +5550,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
-              "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj"
+            "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj": {
+              "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj"
             }
           }
         }
@@ -5604,7 +5604,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
