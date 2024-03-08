@@ -1,0 +1,47 @@
+@startuml LinkedList
+title LinkedList
+namespace DataStructures.LinkedList.Singly {
+    class SinglyLinkedListNode<T> {
+        +Value: T?
+        +Next: SinglyLinkedListNode<T>?
+        +SinglyLinkedListNode()
+        +SinglyLinkedListNode(value: T)
+        +ToString(): string
+    }
+
+    class SinglyLinkedList<T> {
+        -_count: int
+        -Head: SinglyLinkedListNode<T>?
+        +SinglyLinkedList()
+        +SinglyLinkedList(collection: IEnumerable<T>)
+        +AddAfter(node: SinglyLinkedListNode<T>, item: T): void
+        +AddBefore(node: SinglyLinkedListNode<T>, item: T): void
+        +AddFirst(item: T): void
+        +AddLast(item: T): void
+        +Remove(node: SinglyLinkedListNode<T>): T
+        +RemoveFirst(): T
+        +RemoveLast(): T
+        +Count: int
+    }
+    ' hide members
+}
+
+namespace DataStructures.LinkedList.Contracts {
+    interface ISinglyLinkedList<T> {
+    +Head: SinglyLinkedListNode<T>?
+    +Count: int
+    +AddFirst(item: T): void
+    +AddLast(item: T): void
+    +AddBefore(node: SinglyLinkedListNode<T>, item: T): void
+    +AddAfter(node: SinglyLinkedListNode<T>, item: T): void
+    +RemoveFirst(): T
+    +RemoveLast(): T
+    +Remove(node: SinglyLinkedListNode<T>): T
+    }
+    ' hide members
+}
+
+DataStructures.LinkedList.Singly.SinglyLinkedList .up.|> DataStructures.LinkedList.Contracts.ISinglyLinkedList : "<<implements>>"
+DataStructures.LinkedList.Singly.SinglyLinkedList o-- DataStructures.LinkedList.Singly.SinglyLinkedListNode : "use-a"
+
+@enduml
