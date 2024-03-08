@@ -205,8 +205,8 @@ C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\obj\De
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\obj\Debug\net8.0\ArrayTest.genruntimeconfig.cache
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\obj\Debug\net8.0\ref\ArrayTest.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\CoverletSourceRootsMapping_ArrayTest
-C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\testhost.exe
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\testhost.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\testhost.exe
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\ArrayTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll

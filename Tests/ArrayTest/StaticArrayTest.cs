@@ -1,4 +1,4 @@
-using DataStructures.Array.Contracts;
+using DataStructures.Array;
 
 namespace Tests.ArrayTests;
 

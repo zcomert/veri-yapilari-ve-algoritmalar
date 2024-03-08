@@ -34,8 +34,8 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
         {
             Swap(i, i + 1);
         }
-        ShrinkArray();
         index--;
+        ShrinkArray();
         return removedItem;
     }
 
@@ -48,6 +48,7 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
 
     private void CheckDoubleArray()
     {
+        //if (Count.Equals(Capacity))
         if (index.Equals(_innerArray.Length))
         {
             var newArray = new T[_innerArray.Length * 2];
@@ -61,7 +62,7 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
 
     private void ShrinkArray()
     {
-        if (Count < Capacity / 4)
+        if (Count <= Capacity / 4)
         {
             var newArray = new T[Capacity / 2];
             for (int i = 0; i < Count; i++)

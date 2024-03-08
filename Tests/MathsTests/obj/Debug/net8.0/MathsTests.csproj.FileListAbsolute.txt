@@ -102,8 +102,8 @@ F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Tests\MathsTests
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Tests\MathsTests\obj\Debug\net8.0\MathsTests.sourcelink.json
 F:\zc\Dersler\Veri Yapıları ve Algoritmalar\github_myaz204206\Tests\MathsTests\obj\Debug\net8.0\MathsTests.csproj.Up2Date
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\CoverletSourceRootsMapping_MathsTests
-C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\testhost.exe
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\testhost.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\testhost.exe
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Tests\MathsTests\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
