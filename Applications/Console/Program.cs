@@ -1,23 +1,35 @@
 ﻿using DataStructures.Array;
-var numbers = new DataStructures.Array.Array<int>();
-numbers.Add(10);
-numbers.Add(20);
-numbers.Add(30);
-numbers.Add(40);
-numbers.Add(50);
-numbers.Add(60);
-numbers.Add(70);
-numbers.Add(80);
-// numbers.Add(90);
+using DataStructures.LinkedList.Singly;
 
-numbers.RemoveAt(7);
+var linkedlist = new SinglyLinkedList<String>();
+linkedlist.AddFirst("Esat");
+linkedlist.AddFirst("İrem");
+linkedlist.AddFirst("Rabia");
+linkedlist.AddFirst("Yuşa");
+linkedlist.AddFirst("İsmail");
 
-for (int i = 0; i < numbers.Length; i++)
-{
-    System.Console.WriteLine(numbers.GetItem(i));
+var c = linkedlist.Head;
+
+while(c!=null){
+    System.Console.WriteLine(c);
+    c = c.Next;
 }
 
-System.Console.WriteLine($"Number of items in array: {numbers.Count}");
+// foreach (var item in linkedlist)
+// {
+//     System.Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
 
 
 static void StaticArraySample()
@@ -36,4 +48,27 @@ static void StaticArraySample()
     }
 
     Console.ReadLine();
+}
+
+static void ArraySample()
+{
+    var numbers = new DataStructures.Array.Array<int>();
+    numbers.Add(10);
+    numbers.Add(20);
+    numbers.Add(30);
+    numbers.Add(40);
+    numbers.Add(50);
+    numbers.Add(60);
+    numbers.Add(70);
+    numbers.Add(80);
+    // numbers.Add(90);
+
+    numbers.RemoveAt(7);
+
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        System.Console.WriteLine(numbers.GetItem(i));
+    }
+
+    System.Console.WriteLine($"Number of items in array: {numbers.Count}");
 }
