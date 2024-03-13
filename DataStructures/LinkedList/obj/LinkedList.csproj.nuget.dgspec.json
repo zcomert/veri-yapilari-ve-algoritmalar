@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {}
+    "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {}
   },
   "projects": {
-    "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+    "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\UZEM\\.nuget\\packages\\",
-        "outputPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\obj\\",
+        "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
+        "outputPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UZEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

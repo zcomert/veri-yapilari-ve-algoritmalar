@@ -10,3 +10,15 @@ C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedL
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\refint\LinkedList.dll
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.pdb
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\ref\LinkedList.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.deps.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.AssemblyInfoInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.AssemblyInfo.cs
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.csproj.CoreCompileInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\refint\LinkedList.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\ref\LinkedList.dll

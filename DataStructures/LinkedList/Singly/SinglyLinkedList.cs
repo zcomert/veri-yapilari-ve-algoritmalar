@@ -9,6 +9,8 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
 
     public int Count => _count;
 
+    public bool IsEmpty => Head == null;
+
     public SinglyLinkedList()
     {
 
@@ -31,6 +33,21 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
             AddFirst(item);
             return;
         }
+
+        /*
+        var current = Head;
+        while (current != null)
+        {
+            if (current.Equals(node))
+            {
+                new_node.Next = current.Next;
+                current.Next = new_node;
+                _count++;
+                return;
+            }
+            current = current.Next;
+        }
+        */
 
         var current = Head;
         while (current is not null)
@@ -59,6 +76,20 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
         var newNode = new SinglyLinkedListNode<T>(item);
 
         var current = Head;
+        while (current != null)
+        {
+            if (current.Next.Equals(node))
+            {
+                newNode.Next = current.Next;
+                current.Next = newNode;
+                _count++;
+                return;
+            }
+            current = current.Next;
+        }
+
+        /*
+        var current = Head;
         var prev = current;
 
         while (current is not null)
@@ -73,6 +104,7 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
             prev = current;
             current = current.Next;
         }
+        */
         throw new Exception("The node could not be found in the linked list.");
     }
 
@@ -85,7 +117,7 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
         };
 
         // Head boş mu?
-        if (Head is null)
+        if (IsEmpty)
         {
             Head = node;
             _count++;
@@ -104,11 +136,20 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>
         var node = new SinglyLinkedListNode<T>(item);
 
         // Head kontrol et
-        if (Head is null)
+        if (Head is null) // IsEmpty
         {
             AddFirst(item);
             return;
         }
+
+        /*
+        var current = Head;
+        while (current.Next != null){
+            current = current.Next;
+        }
+        current.Next = node;
+        _count++;
+        */
 
         // Son elemana kadar git
         var current = Head;
