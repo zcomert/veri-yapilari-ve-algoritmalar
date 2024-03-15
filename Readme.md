@@ -55,3 +55,8 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 
 # Uygulama 
 - SinglyLinkedListTests
+
+## Hafta 05
+- Iterable / IEnumerable<T>
+- IEnumerator<T>
+- SinglyLinkedListNumerator<T>

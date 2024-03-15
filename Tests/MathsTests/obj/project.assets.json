@@ -5534,19 +5534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj",
+      "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj",
       "projectName": "MathsTests",
-      "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\MathsTests.csproj",
-      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\MathsTests\\obj\\",
+      "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\MathsTests.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Tests\\MathsTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5560,8 +5560,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj": {
-              "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj"
+            "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj": {
+              "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj"
             }
           }
         }
@@ -5618,7 +5618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

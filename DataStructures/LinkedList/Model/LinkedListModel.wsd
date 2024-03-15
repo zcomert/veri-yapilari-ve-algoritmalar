@@ -9,9 +9,19 @@ namespace DataStructures.LinkedList.Singly {
         +ToString(): string
     }
 
+    class SinglyLinkedListEnumerator<T> {
+        - Head: SinglyLinkedListNode<T>?
+        - Curr: SinglyLinkedListNode<T>?
+        + SinglyLinkedListEnumerator(head: SinglyLinkedListNode<T>)
+        + Current: T
+        + MoveNext(): bool
+        + Reset(): void
+        + Dispose(): void
+    }
+
     class SinglyLinkedList<T> {
         -_count: int
-        -Head: SinglyLinkedListNode<T>?
+        +Head: SinglyLinkedListNode<T>?
         +SinglyLinkedList()
         +SinglyLinkedList(collection: IEnumerable<T>)
         +AddAfter(node: SinglyLinkedListNode<T>, item: T): void
@@ -23,7 +33,7 @@ namespace DataStructures.LinkedList.Singly {
         +RemoveLast(): T
         +Count: int
     }
-    ' hide members
+   
 }
 
 namespace DataStructures.LinkedList.Contracts {
@@ -38,10 +48,32 @@ namespace DataStructures.LinkedList.Contracts {
     +RemoveLast(): T
     +Remove(node: SinglyLinkedListNode<T>): T
     }
-    ' hide members
+  
+}
+
+namespace System.Collections.Generic {
+    interface IEnumerable<T> {
+        +GetEnumerator():IEnumerator<T>
+    }
+    
+    interface IEnumerator<T> {
+        +Current:T
+        +MoveNext():bool
+        +Reset():void
+    }
+    
+    interface IDisposable {
+        +Dispose():void
+    }
 }
 
 DataStructures.LinkedList.Singly.SinglyLinkedList .up.|> DataStructures.LinkedList.Contracts.ISinglyLinkedList : "<<implements>>"
 DataStructures.LinkedList.Singly.SinglyLinkedList o-- DataStructures.LinkedList.Singly.SinglyLinkedListNode : "use-a"
+DataStructures.LinkedList.Singly.SinglyLinkedList o-- DataStructures.LinkedList.Singly.SinglyLinkedListEnumerator : "use-a"
+DataStructures.LinkedList.Singly.SinglyLinkedList .up.|> System.Collections.Generic.IEnumerable : "<<implements>>"
 
+System.Collections.Generic.IEnumerable - System.Collections.Generic.IEnumerator : "use-a"
+System.Collections.Generic.IEnumerable .up.|> System.Collections.Generic.IDisposable : "<<implements>>"
+
+hide empty members
 @enduml
