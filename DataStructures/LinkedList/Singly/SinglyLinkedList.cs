@@ -21,7 +21,7 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>, IEnumerable<T>
     {
         foreach (var item in collection)
         {
-            AddFirst(item);
+            AddFirst(item);// O(1)
         }
     }
 
