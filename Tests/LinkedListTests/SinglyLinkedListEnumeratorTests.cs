@@ -11,9 +11,12 @@ public class SinglyLinkedListEnumeratorTests
         var list = new SinglyLinkedList<int>();
         list.AddLast(1);
         list.AddLast(2);
+
+        // var enumerator = list.GetEnumerator();
         var enumerator = new SinglyLinkedListEnumerator<int>(list.Head);
 
-
+        Assert.True(enumerator.MoveNext());
+        Assert.Equal(1, enumerator.Current); // Curr.Value
     }
 
     [Fact]
@@ -22,6 +25,8 @@ public class SinglyLinkedListEnumeratorTests
         // Arrange
         var list = new SinglyLinkedList<int>();
         var enumerator = new SinglyLinkedListEnumerator<int>(list.Head);
+
+        Assert.False(enumerator.MoveNext());
     }
 
     [Fact]
@@ -34,8 +39,14 @@ public class SinglyLinkedListEnumeratorTests
         var enumerator = new SinglyLinkedListEnumerator<int>(list.Head);
 
         // Act
+        enumerator.MoveNext();
+        var item = enumerator.Current;
+        enumerator.Reset();
+        Assert.Throws<NullReferenceException>(() => enumerator.Current);
 
         // Assert
+        Assert.Equal(1, item);
+        Assert.Equal(null, enumerator.Curr);
     }
 
     [Fact]
@@ -64,9 +75,15 @@ public class SinglyLinkedListEnumeratorTests
         var enumerator = new SinglyLinkedListEnumerator<int>(list.Head);
 
         // Act
-
+        enumerator.MoveNext();
+        var item = enumerator.Current;
+        enumerator.MoveNext();
+        var item2 = enumerator.Current;
+        enumerator.MoveNext();
 
         // Assert
-
+        Assert.Equal(1, item);
+        Assert.Equal(2, item2);
+        Assert.Equal(2, enumerator.Curr.Value);
     }
 }

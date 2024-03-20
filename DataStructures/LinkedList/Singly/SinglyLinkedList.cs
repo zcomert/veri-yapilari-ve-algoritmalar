@@ -77,7 +77,7 @@ public class SinglyLinkedList<T> : ISinglyLinkedList<T>, IEnumerable<T>
         var newNode = new SinglyLinkedListNode<T>(item);
 
         var current = Head;
-        while (current != null)
+        while (current.Next != null)
         {
             if (current.Next.Equals(node))
             {

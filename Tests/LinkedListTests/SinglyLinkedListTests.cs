@@ -73,7 +73,7 @@ public class SinglyLinkedListTests
     [Fact]
     public void AddAfterThrowsExceptionIfNodeNotFound()
     {
-        throw new NotImplementedException();
+        Assert.Throws<Exception>(() => linkedList.AddAfter(new SinglyLinkedListNode<int>(5), 1));
     }
 
     [Fact]
@@ -95,42 +95,58 @@ public class SinglyLinkedListTests
     [Fact]
     public void AddBeforeThrowsExceptionIfNodeNotFound()
     {
-        throw new NotImplementedException();
+        Assert.Throws<Exception>(() => linkedList.AddBefore(new SinglyLinkedListNode<int>(5), 1));
     }
 
     [Fact]
     public void RemoveFirstRemovesFirstElement()
     {
-        throw new NotImplementedException();
+        // Act
+        var item = linkedList.RemoveFirst();
+
+        // Assert
+        Assert.Equal(3, item);
     }
 
     [Fact]
     public void RemoveFirstThrowsExceptionIfListIsEmpty()
     {
-        throw new NotImplementedException();
+        linkedList = new SinglyLinkedList<int>();
+        Assert.Throws<Exception>(() => linkedList.RemoveLast());
     }
 
     [Fact]
     public void RemoveLastRemovesLastElement()
     {
-        throw new NotImplementedException();
+        // Act
+        var item = linkedList.RemoveLast();
+
+        // Assert
+        Assert.Equal(1, item);
     }
 
     [Fact]
     public void RemoveLastThrowsExceptionIfListIsEmpty()
     {
-        throw new NotImplementedException();
+        linkedList = new SinglyLinkedList<int>();
+        Assert.Throws<Exception>(() => linkedList.RemoveLast());
     }
 
     [Fact]
     public void RemoveRemovesGivenNode()
     {
-        throw new NotImplementedException();
+        // Act
+        var item = linkedList.Remove(new SinglyLinkedListNode<int>(2));
+
+        // Assert
+        Assert.Equal(2, item);
     }
 
     [Fact]
     public void RemoveThrowsExceptionIfNodeNotFound()
     {
-        throw new NotImplementedException();
+        //linkedList = new SinglyLinkedList<int>();
+
+        Assert.Throws<Exception>(() => linkedList.Remove(new SinglyLinkedListNode<int>(4)));
     }
 }
