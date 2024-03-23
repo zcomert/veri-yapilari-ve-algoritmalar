@@ -1,7 +1,8 @@
 using System.Collections;
+using DataStructures.LinkedList.Contracts;
 namespace DataStructures.LinkedList.Doubly;
 
-public class DoublyLinkedList<T> : IEnumerable<T>
+public class DoublyLinkedList<T> : IDoublyLinkedList<T>, IEnumerable<T>
 {
     public DbNode<T>? Head { get; set; }
     public DbNode<T>? Tail { get; set; }
