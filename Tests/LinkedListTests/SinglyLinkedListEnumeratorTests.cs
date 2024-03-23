@@ -1,7 +1,7 @@
 using DataStructures.LinkedList.Singly;
 using Xunit;
 
-namespace LinkedListTests;
+namespace Tests.LinkedListTests;
 public class SinglyLinkedListEnumeratorTests
 {
     [Fact]

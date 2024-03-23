@@ -1,0 +1,80 @@
+@startuml LinkedList
+title LinkedList
+namespace DataStructures.LinkedList.Doubly {
+    class DbNode<T> {
+        - Value: T?
+        - Next: DbNode<T>
+        - Prev: DbNode<T>
+        + DbNode(value: T?)
+        + DbNode()
+        + ToString(): string?
+    }
+
+    class DbLinkedListEnumerator<T> {
+        - Head: DbNode<T>
+        - Tail: DbNode<T>
+        - Curr: DbNode<T>
+        + DbLinkedListEnumerator()
+        + DbLinkedListEnumerator(head: DbNode<T>, tail: DbNode<T>)
+        + Current: T
+        + Dispose(): void
+        + MoveNext(): bool
+        + Reset(): void
+    }
+
+    class DoublyLinkedList<T> {
+        - Head: DbNode<T>?
+        - Tail: DbNode<T>?
+        - isHeadNull: bool
+        + DoublyLinkedList()
+        + DoublyLinkedList(collection: IEnumerable<T>)
+        + AddFirst(item: T): void
+        + AddLast(item: T): void
+        + RemoveFirst(): T
+        + RemoveLast(): T
+        + GetEnumerator(): IEnumerator<T>
+    }
+   
+}
+
+namespace DataStructures.LinkedList.Contracts {
+
+    interface IDoublyLinkedList<T> {
+    + Head: DbNode<T>?
+    + Tail: DbNode<T>?
+    + AddFirst(item: T): void
+    + AddLast(item: T): void
+    + RemoveFirst(): T
+    + RemoveLast(): T
+    + GetEnumerator(): IEnumerator<T>
+    }
+  
+}
+
+namespace System.Collections.Generic {
+    interface IEnumerable<T> {
+        +GetEnumerator():IEnumerator<T>
+    }
+    
+    interface IEnumerator<T> {
+        +Current:T
+        +MoveNext():bool
+        +Reset():void
+    }
+    
+    interface IDisposable {
+        +Dispose():void
+    }
+}
+
+DataStructures.LinkedList.Doubly.DoublyLinkedList .up.|> DataStructures.LinkedList.Contracts.IDoublyLinkedList : "<<implements>>"
+DataStructures.LinkedList.Doubly.DoublyLinkedList o-- DataStructures.LinkedList.Doubly.DbNode : "use-a"
+DataStructures.LinkedList.Doubly.DoublyLinkedList o-- DataStructures.LinkedList.Doubly.DbLinkedListEnumerator : "use-a"
+DataStructures.LinkedList.Doubly.DoublyLinkedList .up.|> System.Collections.Generic.IEnumerable : "<<implements>>"
+
+System.Collections.Generic.IEnumerable - System.Collections.Generic.IEnumerator : "use-a"
+System.Collections.Generic.IEnumerable .up.|> System.Collections.Generic.IDisposable : "<<implements>>"
+
+hide empty members
+
+@enduml

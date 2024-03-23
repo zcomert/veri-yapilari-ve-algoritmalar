@@ -28,7 +28,7 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 - Veri Tipleri 
 - Değer ve Referans Tipler
 
-## Uygulama 
+### Uygulama 
 - Değer ve Referans Tipler
 - Maths Kütüphanesinin Test Edilmesi
 - Number sınıfının Test Edilmesi
@@ -38,14 +38,14 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 - Diziler
 - Static Array
 
-# Uygulama
+### Uygulama
 - Static Array Testleri
 
 ## Hafta 03
 - Diziler
 - Dynamic Array (Array)
 
-# Uygulama 
+### Uygulama 
 - Array Testleri
 
 
@@ -53,10 +53,24 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 - LinkedList
 - SinglyLinkedList
 
-# Uygulama 
+### Uygulama 
 - SinglyLinkedListTests
 
 ## Hafta 05
 - Iterable / IEnumerable<T>
 - IEnumerator<T>
 - SinglyLinkedListNumerator<T>
+
+### Uygulama
+- SinglyLinkedListEnumeratorTests
+- LinkedListProblems Solutions
+
+## Hafta 06
+- DoublyLinkedListNode
+- DoublyLinkedList
+- DobulyLinkedListEnumerator
+
+### Uygulama
+- DoublyLinkedNodeTests
+- DoublyLinkedListTests
+- DoublyLinkedEnumeratorTests

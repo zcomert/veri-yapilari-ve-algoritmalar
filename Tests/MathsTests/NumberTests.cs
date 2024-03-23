@@ -1,6 +1,6 @@
 using Maths;
 
-namespace MathsTests;
+namespace Tests.MathsTests;
 
 public class NumberTests
 {

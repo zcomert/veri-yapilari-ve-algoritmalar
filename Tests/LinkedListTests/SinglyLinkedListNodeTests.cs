@@ -1,6 +1,6 @@
 using DataStructures.LinkedList.Singly;
 
-namespace LinkedListTests;
+namespace Tests.LinkedListTests;
 
 public class SinglyLinkedListNodeTests
 {
