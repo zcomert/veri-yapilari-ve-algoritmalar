@@ -6,11 +6,9 @@ public class DbNode<T>
     public DbNode<T> Next { get; set; }
     public DbNode<T> Prev { get; set; }
 
-    public DbNode(T? value)
+    public DbNode(T? value) : this()
     {
         Value = value;
-        Next = null;
-        Prev = null;
     }
 
     public DbNode()

@@ -14,9 +14,8 @@ public class DoublyLinkedList<T> : IDoublyLinkedList<T>, IEnumerable<T>
         this.isHeadNull = true;
     }
 
-    public DoublyLinkedList(IEnumerable<T> collection)
+    public DoublyLinkedList(IEnumerable<T> collection) : this()
     {
-        isHeadNull = true;
         foreach (var item in collection)
         {
             AddLast(item);

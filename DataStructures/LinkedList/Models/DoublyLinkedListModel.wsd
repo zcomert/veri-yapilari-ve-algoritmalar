@@ -2,18 +2,18 @@
 title LinkedList
 namespace DataStructures.LinkedList.Doubly {
     class DbNode<T> {
-        - Value: T?
-        - Next: DbNode<T>
-        - Prev: DbNode<T>
+        + Value: T?
+        + Next: DbNode<T>
+        + Prev: DbNode<T>
         + DbNode(value: T?)
         + DbNode()
         + ToString(): string?
     }
 
     class DbLinkedListEnumerator<T> {
-        - Head: DbNode<T>
-        - Tail: DbNode<T>
-        - Curr: DbNode<T>
+        + Head: DbNode<T>
+        + Tail: DbNode<T>
+        + Curr: DbNode<T>
         + DbLinkedListEnumerator()
         + DbLinkedListEnumerator(head: DbNode<T>, tail: DbNode<T>)
         + Current: T
@@ -23,8 +23,8 @@ namespace DataStructures.LinkedList.Doubly {
     }
 
     class DoublyLinkedList<T> {
-        - Head: DbNode<T>?
-        - Tail: DbNode<T>?
+        + Head: DbNode<T>?
+        + Tail: DbNode<T>?
         - isHeadNull: bool
         + DoublyLinkedList()
         + DoublyLinkedList(collection: IEnumerable<T>)
