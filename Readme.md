@@ -74,3 +74,15 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 - DoublyLinkedNodeTests
 - DoublyLinkedListTests
 - DoublyLinkedEnumeratorTests
+
+## Hafta 07
+- Abstact Data Type (ADT)
+- IStack
+- ArrayStack
+- LinkedListStack
+- Stack
+
+### Uygulama
+- ArrayStackTests
+- LinkedListStackTests
+- StackTests
