@@ -21,6 +21,19 @@
         "runtime": {
           "bin/placeholder/LinkedList.dll": {}
         }
+      },
+      "Stack/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LinkedList": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stack.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stack.dll": {}
+        }
       }
     }
   },
@@ -34,12 +47,18 @@
       "type": "project",
       "path": "../../DataStructures/LinkedList/LinkedList.csproj",
       "msbuildProject": "../../DataStructures/LinkedList/LinkedList.csproj"
+    },
+    "Stack/1.0.0": {
+      "type": "project",
+      "path": "../../DataStructures/Stack/Stack.csproj",
+      "msbuildProject": "../../DataStructures/Stack/Stack.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Array >= 1.0.0",
-      "LinkedList >= 1.0.0"
+      "LinkedList >= 1.0.0",
+      "Stack >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -74,6 +93,9 @@
             },
             "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
               "projectPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+            },
+            "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
+              "projectPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj"
             }
           }
         }

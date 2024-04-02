@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\DataStructures\Array\Array.csproj" />
     <ProjectReference Include="..\..\DataStructures\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\..\DataStructures\Stack\Stack.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

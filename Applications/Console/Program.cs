@@ -1,13 +1,39 @@
 ﻿using DataStructures.LinkedList.Doubly;
 using DataStructures.LinkedList.Singly;
 
-var linkedlist = new DoublyLinkedList<char>("Samsun".ToArray());
-foreach (var item in linkedlist)
-{
-    System.Console.WriteLine(item);
+var stack = new DataStructures.Stack.Stack<char>();
+
+foreach (var ch in "akif silan") {
+    stack.Push(ch);
 }
 
-Console.ReadKey();
+    var temp= stack.Count;
+
+for (var i = 0; i <temp;i++) {
+    System.Console.WriteLine(stack.Pop());
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 static void LinkedListTraverseSample()
 {
@@ -52,4 +78,15 @@ static void DdNodeSample()
     System.Console.WriteLine(tail); //bahar
     System.Console.WriteLine(tail.Value); //bahar
     System.Console.WriteLine(tail.Prev.Prev.Prev); //emircan,ismail
+}
+
+static void NewMethod()
+{
+    var linkedlist = new DoublyLinkedList<char>("Samsun".ToArray());
+    foreach (var item in linkedlist)
+    {
+        System.Console.WriteLine(item);
+    }
+
+    Console.ReadKey();
 }

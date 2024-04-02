@@ -9,7 +9,8 @@
       "Console/1.0.0": {
         "dependencies": {
           "Array": "1.0.0",
-          "LinkedList": "1.0.0"
+          "LinkedList": "1.0.0",
+          "Stack": "1.0.0"
         },
         "runtime": {
           "Console.dll": {}
@@ -23,6 +24,14 @@
       "LinkedList/1.0.0": {
         "runtime": {
           "LinkedList.dll": {}
+        }
+      },
+      "Stack/1.0.0": {
+        "dependencies": {
+          "LinkedList": "1.0.0"
+        },
+        "runtime": {
+          "Stack.dll": {}
         }
       }
     }
@@ -39,6 +48,11 @@
       "sha512": ""
     },
     "LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stack/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

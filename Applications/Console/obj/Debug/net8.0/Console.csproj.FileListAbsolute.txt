@@ -59,3 +59,5 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.genruntimeconfig.cache
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\ref\Console.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb

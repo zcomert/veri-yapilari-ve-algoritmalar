@@ -6,25 +6,34 @@ public class Stack<T> : IStack<T>
 {
     private readonly IStack<T>? _stack;
 
-    public int Count => throw new NotImplementedException();
+    public int Count => _stack.Count;
 
     public Stack()
     {
+        // _stack = new ArrayStack<T>();
+        _stack = new LinkedListStack<T>();
+    }
 
+    public Stack(IEnumerable <T> collection) : this()
+    {
+        foreach (var item in collection)
+        {
+            Push(item);
+        }
     }
 
     public T? Peek()
     {
-        throw new NotImplementedException();
+        return _stack.Peek();
     }
 
     public T? Pop()
     {
-        throw new NotImplementedException();
+        return _stack.Pop();
     }
 
     public void Push(T item)
     {
-        throw new NotImplementedException();
+        _stack.Push(item);
     }
 }
