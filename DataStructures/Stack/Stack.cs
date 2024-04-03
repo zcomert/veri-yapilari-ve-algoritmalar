@@ -14,7 +14,19 @@ public class Stack<T> : IStack<T>
         _stack = new LinkedListStack<T>();
     }
 
-    public Stack(IEnumerable <T> collection) : this()
+    public Stack(string type)
+    {
+        if (type.ToLower() == "array")
+            _stack = new ArrayStack<T>();
+        else if (type.ToLower() == "linked")
+            _stack = new LinkedListStack<T>();
+        else
+        {
+            throw new Exception("Type not valid!");
+        }
+    }
+
+    public Stack(IEnumerable<T> collection) : this()
     {
         foreach (var item in collection)
         {

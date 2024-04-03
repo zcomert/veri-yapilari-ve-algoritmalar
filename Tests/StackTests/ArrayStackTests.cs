@@ -12,8 +12,14 @@ public class ArrayStackTests
         var stack = new ArrayStack<int>();
 
         // Act
+        stack.Push(2);
+        stack.Push(1);
+        stack.Push(5);
+        stack.Push(6);
+        stack.Push(0);
 
         // Assert
+        Assert.Equal(0, stack.Peek());
 
     }
 
@@ -27,10 +33,10 @@ public class ArrayStackTests
         stack.Push(3);
 
         // Act
-
+        var item = stack.Pop();
 
         // Assert
-
+        Assert.Equal(3, item);
     }
 
     [Fact]
@@ -43,10 +49,10 @@ public class ArrayStackTests
         stack.Push(3);
 
         // Act
-
+        var item = stack.Peek();
 
         // Assert
-
+        Assert.Equal(3, item);
     }
 
     [Fact]
@@ -56,6 +62,6 @@ public class ArrayStackTests
         var stack = new ArrayStack<int>();
 
         // Act & Assert
-
+        Assert.Throws<Exception>(()=>stack.Pop());
     }
 }
