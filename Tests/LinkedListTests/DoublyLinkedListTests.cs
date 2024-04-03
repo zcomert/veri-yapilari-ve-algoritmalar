@@ -16,7 +16,7 @@ namespace Tests.LinkedListTests
         [Fact]
         public void Constructor_WithCollection_InitializesListCorrectly()
         {
-            var linked = new DoublyLinkedList<char>(new List<char>("hello".ToList()));
+            var linked = new DoublyLinkedList<char>("hello");
 
             Assert.Equal('h', linked.Head.Value);
             Assert.Equal('o', linked.Tail.Value);
@@ -74,6 +74,7 @@ namespace Tests.LinkedListTests
             var item = linked.RemoveFirst();
             var item2 = linked.RemoveFirst();
 
+            Assert.True(item.Equals('h'));
             Assert.True(item2.Equals('e'));
         }
 
@@ -93,6 +94,7 @@ namespace Tests.LinkedListTests
             var item = linked.RemoveLast();
             var item2 = linked.RemoveLast();
 
+            Assert.True(item.Equals('o'));
             Assert.True(item2.Equals('l'));
         }
     }

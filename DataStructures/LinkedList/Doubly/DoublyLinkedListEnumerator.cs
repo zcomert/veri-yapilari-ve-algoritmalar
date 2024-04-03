@@ -20,7 +20,7 @@ namespace DataStructures.LinkedList.Doubly
             Curr = null;
         }
 
-        public T Current => Curr.Value ?? default(T);
+        public T Current => Curr != null ? Curr.Value : default;
 
         object IEnumerator.Current => Current;
 
