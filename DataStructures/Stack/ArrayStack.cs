@@ -34,7 +34,7 @@ public class ArrayStack<T> : IStack<T>
         {
             throw new Exception("Underflow! Empty stack!");
         }
-        var temp = _innerArray[LastIndex];
+        var temp = _innerArray[LastIndex]; // Peek()
         _innerArray.RemoveAt(LastIndex);
         return temp;
     }

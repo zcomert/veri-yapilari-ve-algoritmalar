@@ -1,3 +1,4 @@
+using DataStructures.LinkedList.Doubly;
 using DataStructures.LinkedList.Singly;
 using DataStructures.Stack.Contracts;
 

@@ -80,6 +80,14 @@ public class DoublyLinkedList<T> : IDoublyLinkedList<T>, IEnumerable<T>
         if (isHeadNull)
             throw new Exception("The linked list is empty!");
 
+        if (Head.Equals(Tail))
+        {
+            T item2 = Head.Value;
+            Head = null;
+            Tail = null;
+            return item2;
+        }
+
         T item = Tail.Value;
         Tail = Tail.Prev;
         Tail.Next = null;
