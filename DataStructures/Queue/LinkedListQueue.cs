@@ -12,6 +12,14 @@ public class LinkedListQueue<T> : IQueue<T>
         linkedlistqueue = new DoublyLinkedList<T>();
     }
 
+    public LinkedListQueue(IEnumerable<T> collection) : this()
+    {
+        foreach (var item in collection)
+        {
+            Enqueue(item);
+        }
+    }
+
     public int Count => linkedlistqueue.Count();
 
     public T Dequeue()

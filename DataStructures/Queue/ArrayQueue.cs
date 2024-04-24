@@ -43,6 +43,6 @@ public class ArrayQueue<T> : IQueue<T>
     public T Peek()
     {
         // return Count == 0 ? default : _innerArray[0];
-        return Count == 0 ? default : _innerArray.GetItem(0);
+        return Count == 0 ? default : _innerArray.GetItem(0); // _innerArray[0];
     }
 }

@@ -5529,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\LinkedListTests.csproj",
+      "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\LinkedListTests.csproj",
       "projectName": "LinkedListTests",
-      "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\LinkedListTests.csproj",
+      "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\LinkedListTests.csproj",
       "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\obj\\",
+      "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Tests\\LinkedListTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5550,8 +5550,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
-              "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+            "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+              "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
             }
           }
         }
