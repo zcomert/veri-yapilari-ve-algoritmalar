@@ -63,7 +63,7 @@ public class LinkedListQueueTests
     public void Peek_ShouldReturnFirstElementWithoutRemoving()
     {
         // Arrange
-        LinkedListQueue<char> queue = new LinkedListQueue<char>(new char[]{'a', 'b', 'c', 'd'});
+        LinkedListQueue<char> queue = new LinkedListQueue<char>(new char[] { 'a', 'b', 'c', 'd' });
 
 
         // Act
@@ -82,5 +82,18 @@ public class LinkedListQueueTests
 
         // Act & Assert
         Assert.Equal(default(int), queue.Peek());
+    }
+
+    [Fact]
+    public void Enqueue_Items_From_Constructor()
+    {
+        // Arrange
+        LinkedListQueue<int> queue = new LinkedListQueue<int>(new int[] { 10, 20, 30 });
+
+        // Act & Assert
+        Assert.Equal(10, queue.Peek());
+        Assert.Equal(10, queue.Peek());
+        Assert.Equal(10, queue.Dequeue());
+        Assert.Equal(20, queue.Peek());
     }
 }
