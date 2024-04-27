@@ -1,7 +1,7 @@
 using DataStructures.LinkedList.Doubly;
 using DataStructures.LinkedList.Singly;
 
-public static class DoublyLinkedListSample
+public static class DoublyLinkedListApplication
 {
     static void LinkedListTraverseSample()
     {

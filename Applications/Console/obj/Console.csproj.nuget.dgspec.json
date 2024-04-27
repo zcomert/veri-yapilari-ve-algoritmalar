@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj": {}
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Applications\\Console\\Console.csproj": {}
   },
   "projects": {
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj": {
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Applications\\Console\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
+        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Applications\\Console\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\obj\\",
+        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Applications\\Console\\Console.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Applications\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj"
+              "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj"
               },
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj"
               },
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj"
+              "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\Stack.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\Stack.csproj"
+              },
+              "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\Trees.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\Trees.csproj"
               }
             }
           }
@@ -70,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
+        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
         "projectName": "Array",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\obj\\",
+        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\obj\\",
+        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,21 +193,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\Stack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj",
+        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\Stack.csproj",
         "projectName": "Stack",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\obj\\",
+        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\Stack.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Stack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,8 +221,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\LinkedList\\LinkedList.csproj"
               }
             }
           }
@@ -254,7 +257,67 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\Trees.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\Trees.csproj",
+        "projectName": "Trees",
+        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\Trees.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Trees\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

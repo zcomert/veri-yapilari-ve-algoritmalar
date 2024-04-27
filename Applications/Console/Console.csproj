@@ -4,6 +4,7 @@
     <ProjectReference Include="..\..\DataStructures\Array\Array.csproj" />
     <ProjectReference Include="..\..\DataStructures\LinkedList\LinkedList.csproj" />
     <ProjectReference Include="..\..\DataStructures\Stack\Stack.csproj" />
+    <ProjectReference Include="..\..\DataStructures\Trees\Trees.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
