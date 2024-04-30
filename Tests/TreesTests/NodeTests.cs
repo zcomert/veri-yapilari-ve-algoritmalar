@@ -22,7 +22,7 @@ public class NodeTests
     [InlineData(10, 20)]
     [InlineData(20, 30)]
     [InlineData(30, 40)]
-    public void Node_SetValue_ShouldUpdateValue(int initialValue, int newValue)
+    public void Node_SetValue_Should_Update_Value(int initialValue, int newValue)
     {
         // Arrange
         var node = new Node<int>(initialValue);
