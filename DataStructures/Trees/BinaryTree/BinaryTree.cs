@@ -160,11 +160,12 @@ public class BinaryTree<T> : IEnumerable
 
     public static int NumberOfHalfNodes(Node<T> root)
     {
-        return BinaryTree<T>.LevelOrderTraverse(root)
-        .Where(node => (node.Left != null && node.Right == null) ||
-        (node.Left == null && node.Right != null))
-        .ToList()
-        .Count;
+        return BinaryTree<T>
+            .LevelOrderTraverse(root)
+            .Where(node => (node.Left != null && node.Right == null)
+                || (node.Left == null && node.Right != null))
+            .ToList()
+            .Count;
     }
 
     public static int NumberOfFullNodes(Node<T> root) =>

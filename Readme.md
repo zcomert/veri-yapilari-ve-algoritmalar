@@ -113,3 +113,10 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 ### Uygulama
 - NodeTests
 - BinaryTreeTests
+
+
+## Hafta 12
+- BST
+
+### Uygulama
+- BST Tests
