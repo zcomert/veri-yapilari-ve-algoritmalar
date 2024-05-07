@@ -63,3 +63,5 @@ C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\b
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.pdb

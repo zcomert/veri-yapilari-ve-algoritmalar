@@ -8,13 +8,11 @@
 
 using DataStructures.Trees.BinaryTree;
 
-var root = new Node<int>(1);
+var bt = new BinaryTree<int>(new List<int>() { 1, 10, 20, 40, 60, 23, 50 });
 
-root.Left = new Node<int>(10);  
-root.Right = new Node<int>(20);
+System.Console.WriteLine(bt.Root.Left.Left);
 
-root.Left.Left = new Node<int>(40);
-root.Left.Right = new Node<int>(60);
-
-root.Right.Left = new Node<int>(23);
-root.Right.Right = new Node<int>(50);
+foreach (var item in bt)
+{
+    System.Console.WriteLine(item);
+}

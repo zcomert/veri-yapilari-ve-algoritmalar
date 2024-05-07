@@ -92,7 +92,6 @@ public class BinaryTree<T> : IEnumerable
 
     public static List<T> InOrderIterationTraverse(Node<T> root)
     {
-
         if (root == null)
             return null;
 
@@ -145,7 +144,8 @@ public class BinaryTree<T> : IEnumerable
 
     public IEnumerator GetEnumerator()
     {
-        return LevelOrderTraverse(this.Root).GetEnumerator();
+        // return LevelOrderTraverse(this.Root).GetEnumerator();
+        return InOrderIterationTraverse(this.Root).GetEnumerator();
     }
 
     public T Delete(T value)

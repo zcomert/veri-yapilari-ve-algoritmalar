@@ -10,7 +10,8 @@
         "dependencies": {
           "Array": "1.0.0",
           "LinkedList": "1.0.0",
-          "Stack": "1.0.0"
+          "Stack": "1.0.0",
+          "Trees": "1.0.0"
         },
         "runtime": {
           "Console.dll": {}
@@ -33,6 +34,11 @@
         "runtime": {
           "Stack.dll": {}
         }
+      },
+      "Trees/1.0.0": {
+        "runtime": {
+          "Trees.dll": {}
+        }
       }
     }
   },
@@ -53,6 +59,11 @@
       "sha512": ""
     },
     "Stack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Trees/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
