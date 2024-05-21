@@ -11,6 +11,16 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
 
     public int Capacity => Length;
 
+    public Array()
+    {
+
+    }
+
+    public Array(int size)
+    {
+        _innerArray = new T[size];
+    }
+
     public void Add(T value)
     {
         CheckDoubleArray();
@@ -44,6 +54,21 @@ public class Array<T> : StaticArray<T>, IDynamicArray<T>
         var temp = _innerArray[position1];
         _innerArray[position1] = _innerArray[position2];
         _innerArray[position2] = temp;
+    }
+
+    public T GetValue(int position)
+    {
+        // throw new NotImplementedException();
+        if (position < 0 || position >= _innerArray.Length)
+            throw new IndexOutOfRangeException();
+        return _innerArray[position];
+    }
+
+    public void SetValue(T value, int position)
+    {
+        if (position < 0 || position >= _innerArray.Length)
+            throw new IndexOutOfRangeException();
+        _innerArray[position] = value;
     }
 
     private void CheckDoubleArray()

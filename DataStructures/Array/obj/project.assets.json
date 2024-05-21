@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\UZEM\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
+      "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
       "projectName": "Array",
-      "projectPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
-      "packagesPath": "C:\\Users\\UZEM\\.nuget\\packages\\",
-      "outputPath": "C:\\zc\\MYAZ204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\obj\\",
+      "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\Array.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\DataStructures\\Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UZEM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -115,7 +115,7 @@ public class BST<T>
 
     public Node<T> Remove(Node<T> root, T key)
     {
-        if (root == null)
+        if (root is null)
             throw new Exception("Empty tree!");
 
         if (key.CompareTo(root.Value) < 0)
@@ -128,14 +128,14 @@ public class BST<T>
         }
         else
         {
-            // silme prosedürü
-            // tek cocuklu ya da cocuksuz
+            // remove procedure
+            // node with one child or non-child
             if (root.Left == null)
                 return root.Right;
             else if (root.Right == null)
                 return root.Left;
 
-            // iki cocuk var ise
+            // node with two child
             root.Value = FindMin(root.Right);
             root.Right = Remove(root.Right, root.Value);
         }
