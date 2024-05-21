@@ -2,7 +2,7 @@
 title PriorityQueue
 
 namespace DataStructures.PriorityQueue {
-    class BHeap<T> {
+    abstract class BHeap<T> {
         # position:int
         + Array:Array<T>
         + Count:int
