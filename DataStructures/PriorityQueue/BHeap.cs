@@ -24,7 +24,7 @@ public abstract class BHeap<T> : IEnumerable
     }
 
     public int GetLeftChildIndex(int i) => 2 * i + 1;
-    protected int GetRightChildIndex(int i) => 2 * i + 2;
+    public int GetRightChildIndex(int i) => 2 * i + 2;
     public int GetParentIndex(int i) => (i - 1) / 2;
 
     protected bool HasLeftChild(int i) =>

@@ -1,0 +1,58 @@
+@startuml PriorityQueue
+title PriorityQueue
+
+namespace DataStructures.PriorityQueue {
+    class BHeap<T> {
+        # position:int
+        + Array:Array<T>
+        + Count:int
+
+        + BHeap(_size:int)
+        + BHeap(collection:IEnumerable<T>)
+        
+        + GetLeftChildIndex(i:int):int
+        + GetRightChildIndex(i:int):int
+        + GetParentIndex(i:int):int
+
+        # HasLeftChild(i:int):bool
+        # HasRightChild(i:int):bool
+        # IsRoot(i:int):bool
+        
+        # GetLeftChild(i:int):T
+        # GetRightChild(i:int):T
+        # GetParent(i:int):T
+        
+        + IsEmpty():bool
+        + Peek():T
+        + Swap(first:int, second:int):void
+        + Add(value:T):void
+        + DeleteMinMax():T
+        
+        # {abstract}HeapifyUp():void
+        # {abstract}HeapifyDown():void
+        
+        + GetEnumerator():IEnumerator
+    }
+
+    class MaxHeap<T> {
+        + MaxHeap(size:int)
+        + MaxHeap(collection:IEnumerable<T>)
+        
+        # HeapifyDown():void
+        # HeapifyUp():void
+    }
+
+    class MinHeap<T> {
+        + MinHeap(_size:int)
+        + MinHeap(collection:IEnumerable<T>)
+        
+        # HeapifyDown():void
+        # HeapifyUp():void
+    }
+
+   
+}
+hide empty members
+DataStructures.PriorityQueue.BHeap <|-left- DataStructures.PriorityQueue.MaxHeap : "extends"
+DataStructures.PriorityQueue.BHeap <|-right- DataStructures.PriorityQueue.MinHeap : "extends"
+@enduml
