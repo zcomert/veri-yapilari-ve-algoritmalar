@@ -124,7 +124,7 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 ## Hafta 13
 - Görevlendirme
 
-## Hafta 13
+## Hafta 14
 - Priority Queue
 - MaxHeap
 - MinHeap
