@@ -120,3 +120,15 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 
 ### Uygulama
 - BST Tests
+
+## Hafta 13
+- Görevlendirme
+
+## Hafta 13
+- Priority Queue
+- MaxHeap
+- MinHeap
+
+### Uygulama
+- MaxHeapTests
+- MinHeapTests
