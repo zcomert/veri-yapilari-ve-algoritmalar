@@ -1,6 +1,4 @@
-using DataStructures.PriorityQueue;
-
-namespace PriorityQueue;
+namespace DataStructures.PriorityQueue;
 
 public class MaxHeap<T> : BHeap<T>
    where T : IComparable
