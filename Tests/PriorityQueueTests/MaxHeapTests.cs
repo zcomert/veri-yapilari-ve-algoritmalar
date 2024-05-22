@@ -27,7 +27,7 @@ public class MaxHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), 9);
     }
 
     [Fact]
@@ -40,6 +40,7 @@ public class MaxHeapTests
         var max = heap.Peek();
 
         // Assert
+        Assert.Equal(max, 9);
 
     }
 
@@ -53,7 +54,8 @@ public class MaxHeapTests
         var max = heap.DeleteMinMax();
 
         // Assert
-
+        Assert.True(heap.Peek() == 8);
+        Assert.True(max == 9);
     }
 
     [Fact]
@@ -70,7 +72,7 @@ public class MaxHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), 6);
     }
 
     [Fact]
@@ -88,7 +90,7 @@ public class MaxHeapTests
     {
         // Arrange
         var heap = new MaxHeap<string>();
-        var values = new List<string> { "apple", "banana", "cherry" };
+        var values = new List<string> { "apple", "ab", "banana", "cherry" };
 
         // Act
         foreach (var value in values)
@@ -97,7 +99,7 @@ public class MaxHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), "cherry");
     }
 
     [Fact]
@@ -108,7 +110,7 @@ public class MaxHeapTests
         var heap = new MaxHeap<int>(values);
 
         // Act & Assert
-
+        Assert.Equal(heap.Peek(), 9);
     }
 
     [Fact]
@@ -127,6 +129,7 @@ public class MaxHeapTests
         }
 
         // Assert
+        Assert.Equal(elements[0], 9);
 
     }
 
@@ -141,6 +144,7 @@ public class MaxHeapTests
         var max = heap.Peek();
 
         // Assert
+        Assert.Equal(max, 10);
 
     }
 
@@ -158,6 +162,6 @@ public class MaxHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), 10);
     }
 }

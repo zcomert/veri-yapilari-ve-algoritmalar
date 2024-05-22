@@ -28,7 +28,9 @@ public class MinHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Count, 5);
+        Assert.Equal(heap.Peek(), 1);
+        Assert.Equal(heap.Array.GetValue(2), 8);
     }
 
     [Fact]
@@ -41,7 +43,7 @@ public class MinHeapTests
         var min = heap.Peek();
 
         // Assert
-
+        Assert.Equal(1, min);
     }
 
     [Fact]
@@ -54,7 +56,8 @@ public class MinHeapTests
         var min = heap.DeleteMinMax();
 
         // Assert
-
+        Assert.Equal(1, min);
+        Assert.Equal(heap.Peek(), 3);
     }
 
     [Fact]
@@ -71,7 +74,7 @@ public class MinHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), 1);
     }
 
     [Fact]
@@ -89,7 +92,7 @@ public class MinHeapTests
     {
         // Arrange
         var heap = new MinHeap<string>();
-        var values = new List<string> { "apple", "banana", "cherry" };
+        var values = new List<string> { "apple", "ab", "banana", "cherry" };
 
         // Act
         foreach (var value in values)
@@ -98,7 +101,7 @@ public class MinHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), "ab");
     }
 
     [Fact]
@@ -129,7 +132,7 @@ public class MinHeapTests
         }
 
         // Assert
-
+        Assert.Equal(elements[0], 1);
     }
 
     [Fact]
@@ -143,7 +146,7 @@ public class MinHeapTests
         var min = heap.Peek();
 
         // Assert
-
+        Assert.True(min == 10);
     }
 
     [Fact]
@@ -160,6 +163,6 @@ public class MinHeapTests
         }
 
         // Assert
-
+        Assert.Equal(heap.Peek(), 10);
     }
 }

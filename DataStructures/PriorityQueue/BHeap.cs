@@ -33,7 +33,7 @@ public abstract class BHeap<T> : IEnumerable
     protected bool HasRightChild(int i) =>
         GetRightChildIndex(i) < position;
 
-    protected bool IsRoot(int i) => i == 0;
+    protected bool IsRoot(int i) { return i == 0; }
 
     protected T GetLeftChild(int i) =>
         Array.GetValue(GetLeftChildIndex(i));
@@ -75,6 +75,7 @@ public abstract class BHeap<T> : IEnumerable
             throw new IndexOutOfRangeException("Underflow!");
         var temp = Array.GetValue(0);
         Array.SetValue(Array.GetValue(position - 1), 0);
+        // Array.RemoveAt(position - 1);
         position--;
         Count--;
         HeapifyDown();
