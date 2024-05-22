@@ -38,6 +38,10 @@ F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\gith
 F:\zc\Dersler\Samsun-University\MYAZ204-206-Veri Yapıları ve Algoritmalar\github_myaz204206\Applications\Console\obj\Debug\net8.0\ref\Console.dll
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\LinkedList.dll
 C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\LinkedList.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.dll
+C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Console.exe
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Console.deps.json
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Console.runtimeconfig.json
@@ -45,8 +49,12 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Console.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Array.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\LinkedList.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Array.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\LinkedList.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.csproj.AssemblyReference.cache
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.GeneratedMSBuildEditorConfig.editorconfig
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.AssemblyInfoInputs.cache
@@ -59,9 +67,3 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\Console.genruntimeconfig.cache
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\obj\Debug\net8.0\ref\Console.dll
-C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
-C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
-C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.dll
-C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Stack.pdb
-C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.dll
-C:\zc\MYAZ204206\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\Applications\Console\bin\Debug\net8.0\Trees.pdb

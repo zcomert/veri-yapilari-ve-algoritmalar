@@ -20,6 +20,9 @@ public class BSTTests
         bst.Add(17);
 
         // Assert
+        Assert.Equal(bst.Root.Value, 10);
+        Assert.Equal(bst.Root.Left.Value, 5);
+        Assert.Equal(bst.Root.Right.Value, 15);
     }
 
     [Fact]
@@ -29,8 +32,10 @@ public class BSTTests
         var bst = new BST<int>(new List<int> { 10, 5, 15, 3, 7, 12, 17 });
 
         // Act
+        var min = bst.FindMin();
 
         // Assert
+        Assert.Equal(min, 3);
     }
 
     [Theory]
@@ -43,10 +48,11 @@ public class BSTTests
         var bst = new BST<int>(values);
 
         // Act
+        var max = bst.FindMax();
 
 
         // Assert
-
+        Assert.Equal(expectedMax, max);
     }
 
     [Fact]
@@ -56,10 +62,10 @@ public class BSTTests
         var bst = new BST<int>(new List<int> { 10, 5, 15, 3, 7, 12, 17 });
 
         // Act
-
+        var node = bst.Find(17);
 
         // Assert
-
+        Assert.Equal(node.Value, 17);
     }
 
     [Fact]
@@ -68,7 +74,9 @@ public class BSTTests
         // Arrange
         var bst = new BST<int>(new List<int> { 10, 5, 15, 3, 7, 12, 17 });
 
+        var node = bst.Remove(bst.Root, 15);
+
+        Assert.Equal(node.Value, 15);
+
     }
-
-
 }
