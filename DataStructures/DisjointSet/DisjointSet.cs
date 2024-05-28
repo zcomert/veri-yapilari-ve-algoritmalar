@@ -3,15 +3,15 @@
 namespace DataStructures.DisjointSet;
 public class DisjointSet<T> : IEnumerable<T>
 {
-    private Dictionary<T, DisjointSetNode<T>> set
-        = new Dictionary<T, DisjointSetNode<T>>();
+    private Dictionary<T, DisjointSetNode<T>> set;
+
 
     public DisjointSet()
     {
-
+        set = new Dictionary<T, DisjointSetNode<T>>();
     }
 
-    public DisjointSet(IEnumerable<T> collection)
+    public DisjointSet(IEnumerable<T> collection) : this()
     {
         foreach (var item in collection)
             MakeSet(item);
@@ -62,21 +62,15 @@ public class DisjointSet<T> : IEnumerable<T>
         var nodeA = set[rootA];
         var nodeB = set[rootB];
 
-        if (nodeA.Rank == nodeB.Rank)
+        if (nodeA.Rank <= nodeB.Rank)
         {
             nodeB.Parent = nodeA;
-            nodeA.Rank++;
+            nodeA.Rank += nodeB.Rank; 
         }
         else
         {
-            if (nodeA.Rank < nodeB.Rank)
-            {
-                nodeA.Parent = nodeB;
-            }
-            else
-            {
-                nodeB.Parent = nodeA;
-            }
+            nodeA.Parent = nodeB;
+            nodeB.Rank += nodeA.Rank; 
         }
     }
 

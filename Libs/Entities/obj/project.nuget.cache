@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVQ6c0XDTUYkpOBhx1M1dF2pte6WZamOdHEw/9jpWVBRMaW5MHuSttVl8sRDMalr/P/9FEIhfVgwAWJ1s3/F0w==",
+  "dgSpecHash": "J3l5TEQqrnw=",
   "success": true,
-  "projectFilePath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Entities\\Entities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.2\\microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

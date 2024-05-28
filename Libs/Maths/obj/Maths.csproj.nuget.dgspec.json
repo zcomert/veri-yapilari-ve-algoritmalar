@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj": {}
+    "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj": {}
   },
   "projects": {
-    "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj": {
+    "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
+        "projectUniqueName": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
         "projectName": "Maths",
-        "projectPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\Maths.csproj",
+        "projectPath": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
         "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-        "outputPath": "F:\\zc\\Dersler\\Samsun-University\\MYAZ204-206-Veri Yapıları ve Algoritmalar\\github_myaz204206\\Libs\\Maths\\obj\\",
+        "outputPath": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,12 +55,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.2, 8.0.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.3.24204.13/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
