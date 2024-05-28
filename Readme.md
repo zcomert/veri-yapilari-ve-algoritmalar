@@ -132,3 +132,9 @@ Projede kullanılan çerçeve framework ve proje şablonları aşağıda listenm
 ### Uygulama
 - MaxHeapTests
 - MinHeapTests
+
+## Hafta 15
+- Disjoint Set
+
+### Uygulama
+- Disjonit Set Tests
