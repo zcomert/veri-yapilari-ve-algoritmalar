@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PR9XGn+9x88=",
+  "dgSpecHash": "IWEtC/3DVMvYlQjwTnrBDbYFSMA2Ekf9Bh8cb+uQHoTzEqExuU2KvcYdhGOqYTsPTJl8FJYAEHVczLagClFaBA==",
   "success": true,
-  "projectFilePath": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512",
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.2\\microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512",
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.2\\microsoft.netcore.app.host.win-x64.8.0.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

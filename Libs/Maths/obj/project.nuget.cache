@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZ6jw8jc6gY=",
+  "dgSpecHash": "cOe2Tx5nsPp+R+T+P4RuZV8P+UR2NHS2NOXRxkZofflttHRrhi1vPFIP2nZh0TG3tB3sLoQ8RcGp+QyvZSqUbg==",
   "success": true,
-  "projectFilePath": "D:\\Zafer\\myaz204206\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512",
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
-    "C:\\Users\\zafer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.2\\microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Maths\\Maths.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

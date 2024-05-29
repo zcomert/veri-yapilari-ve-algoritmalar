@@ -1,0 +1,12 @@
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\bin\Debug\net8.0\DisjointSet.deps.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\bin\Debug\net8.0\DisjointSet.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\bin\Debug\net8.0\DisjointSet.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.AssemblyInfoInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.AssemblyInfo.cs
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.csproj.CoreCompileInputs.cache
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.sourcelink.json
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\refint\DisjointSet.dll
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\DisjointSet.pdb
+C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\DisjointSet\obj\Debug\net8.0\ref\DisjointSet.dll
