@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj": {}
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj": {}
   },
   "projects": {
-    "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj",
         "projectName": "DisjointSet",
-        "projectPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "c:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\DisjointSet\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\DisjointSet\\DisjointSet.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\DisjointSet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

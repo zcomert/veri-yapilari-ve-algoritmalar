@@ -1,0 +1,29 @@
+@startuml
+
+namespace DataStructures.Trees.AVL {
+
+class AVLTreeNode<T> {
+  + Value:T
+  + Left:AVLTreeNode<T>
+  + Right:AVLTreeNode<T> 
+  + Height:int 
+  + AVLTreeNode(value:T)
+}
+
+class AVLTree<T> {
+  - AVLTreeNode<T> root
+  + Insert(value:T):void
+  + Delete(value:T):void
+  + InOrderTraversal(action:Action<T>):void
+  - Insert(node:AVLTreeNode<T>, value:T):AVLTreeNode<T>
+  - Delete(node:AVLTreeNode<T>, value:T):AVLTreeNode<T>
+  - MinValueNode(node:AVLTreeNode<T>):AVLTreeNode<T>
+  - Balance(node:AVLTreeNode<T>):AVLTreeNode<T>
+  - GetHeight(node:AVLTreeNode<T>):int
+  - GetBalanceFactor(node:AVLTreeNode<T>):int
+  - RotateRight(y:AVLTreeNode<T>):AVLTreeNode<T>
+  - RotateLeft(x:AVLTreeNode<T>):AVLTreeNode<T>
+  - InOrderTraversal(node:AVLTreeNode<T>, action:Action<T>):void
+}
+}
+@enduml

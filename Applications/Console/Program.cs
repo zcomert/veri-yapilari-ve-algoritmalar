@@ -1,18 +1,24 @@
-﻿// Bu şekilde bir ikili ağaç (binary tree) oluşturalım. 
+﻿using DataStructures.Trees.AVL;
 
-//         1 
-//      /     \ 
-//     10      20 
-//    /  \    /  \
-//   40  60  23   50
+var avltree = new AVLTree<int>();
 
-using DataStructures.Trees.BinaryTree;
+var numbers = new int[] { 10, 20, 30, 40, 50 };
 
-var bt = new BinaryTree<int>(new List<int>() { 1, 10, 20, 40, 60, 23, 50 });
-
-System.Console.WriteLine(bt.Root.Left.Left);
-
-foreach (var item in bt)
+foreach (var item in numbers)
 {
-    System.Console.WriteLine(item);
+    avltree.Insert(item);
 }
+
+// AVL ağacındaki tüm elemanları ekrana yazdırma
+// avltree.InOrderTraversal(value => Console.WriteLine(value));
+
+System.Console.WriteLine(avltree?.root?.Value);                 // 20
+System.Console.WriteLine(avltree?.root?.Left?.Value);           // 10 
+System.Console.WriteLine(avltree?.root?.Right?.Value);          // 40
+System.Console.WriteLine(avltree?.root?.Right?.Left?.Value);    // 30 
+System.Console.WriteLine(avltree?.root?.Right?.Right?.Value);   // 50
+
+Console.ReadKey();
+
+
+

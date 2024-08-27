@@ -2597,19 +2597,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PREDATOR\\.nuget\\packages\\": {}
+    "C:\\Users\\zafer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\Web.csproj",
+      "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-      "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Web\\obj\\",
+      "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Web\\Web.csproj",
+      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+      "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2623,11 +2623,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
-              "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj"
+            "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj": {
+              "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj"
             },
-            "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Libs\\Entities\\Entities.csproj"
+            "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Libs\\Entities\\Entities.csproj": {
+              "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Libs\\Entities\\Entities.csproj"
             }
           }
         }
@@ -2687,7 +2687,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

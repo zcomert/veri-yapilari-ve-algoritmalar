@@ -22,3 +22,15 @@ C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\refint\LinkedList.dll
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.pdb
 C:\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\ref\LinkedList.dll
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.deps.json
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.dll
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\bin\Debug\net8.0\LinkedList.pdb
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.AssemblyInfoInputs.cache
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.AssemblyInfo.cs
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.csproj.CoreCompileInputs.cache
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.sourcelink.json
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.dll
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\refint\LinkedList.dll
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\LinkedList.pdb
+F:\veri-yapilari\veri-yapilari-ve-algoritmalar\DataStructures\LinkedList\obj\Debug\net8.0\ref\LinkedList.dll

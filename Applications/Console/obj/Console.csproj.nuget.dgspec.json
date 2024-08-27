@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj": {}
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Console\\Console.csproj": {}
   },
   "projects": {
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Console\\Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Console\\Console.csproj",
         "projectName": "Console",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\Console.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\Applications\\Console\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Console\\Console.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\Applications\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,17 +28,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj"
+              "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj": {
+                "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj"
               },
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
               },
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj"
+              "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
+                "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\Stack.csproj"
               },
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\Trees.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\Trees.csproj"
+              "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\Trees.csproj": {
+                "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\Trees.csproj"
               }
             }
           }
@@ -73,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj",
         "projectName": "Array",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\Array.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Array\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\Array.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Array\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
         "projectName": "LinkedList",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -193,21 +193,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\Stack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\Stack.csproj",
         "projectName": "Stack",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\Stack.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Stack\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\Stack.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Stack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -221,8 +221,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
-                "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
+              "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj": {
+                "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\LinkedList\\LinkedList.csproj"
               }
             }
           }
@@ -257,21 +257,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\Trees.csproj": {
+    "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\Trees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\Trees.csproj",
+        "projectUniqueName": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\Trees.csproj",
         "projectName": "Trees",
-        "projectPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\Trees.csproj",
-        "packagesPath": "C:\\Users\\PREDATOR\\.nuget\\packages\\",
-        "outputPath": "C:\\MYAZ204206_Veri_Yapilari_ve_Algoritmalar\\DataStructures\\Trees\\obj\\",
+        "projectPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\Trees.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "F:\\veri-yapilari\\veri-yapilari-ve-algoritmalar\\DataStructures\\Trees\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PREDATOR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -317,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
