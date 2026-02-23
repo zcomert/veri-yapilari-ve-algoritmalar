@@ -103,5 +103,22 @@ public class ArrayTests
         arr.Add(5); // Resize tetiklenir (4 -> 8)
         Assert.Equal(8, arr.Capacity);
     }
+    [Fact]
+    public void AddRange_ShouldAddAllItems_AndResizeIfNeeded()
+    {
+        var arr = new Array<int>(2);
+        var itemsToAdd = new List<int> { 5, 10, 15, 20 };
+
+        arr.AddRange(itemsToAdd);
+
+        Assert.Equal(4, arr.Length);
+        Assert.Equal(5, arr[0]);
+        Assert.Equal(10, arr[1]);
+        Assert.Equal(15, arr[2]);
+        Assert.Equal(20, arr[3]);
+        Assert.True(arr.Capacity >= 4); // Kapasite en az 4 olmalý (gerekirse daha fazla)
+    }
+
+
 }
 
