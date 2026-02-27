@@ -119,6 +119,102 @@ public class ArrayTests
         Assert.True(arr.Capacity >= 4); // Kapasite en az 4 olmalý (gerekirse daha fazla)
     }
 
+    [Fact]
+    public void Insert_Test()
+    {
+        var arr = new Array<int>();
+        arr.Add(1);
+        arr.Add(2);
+        arr.Add(3);
 
+        arr.Insert(1, 10);
+
+        Assert.Equal(4, arr.Length);
+        Assert.Equal(1, arr[0]);
+        Assert.Equal(10, arr[1]);
+        Assert.Equal(2, arr[2]);
+        Assert.Equal(3, arr[3]);
+    }
+
+    [Fact]
+    public void IndexOf_Test()
+    {
+        var arr = new Array<int>();
+        arr.Add(1);
+        arr.Add(2);
+        arr.Add(3);
+
+        var index = arr.IndexOf(2);
+        var index2 = arr.IndexOf(15);
+
+        Assert.Equal(1, index);
+        Assert.Equal(-1, index2);
+    }
+
+    [Fact]
+    public void Contains_Test()
+    {
+        var arr = new Array<int>();
+        arr.Add(1);
+        arr.Add(2);
+        arr.Add(3);
+
+        var condition = arr.Contains(2);
+        var condition2 = arr.Contains(15);
+
+        Assert.True(condition);
+        Assert.False(condition2);
+    }
+
+    [Fact]
+    public void RemoveAt_Test()
+    {
+        var arr = new Array<int>();
+        arr.AddRange(new[] { 1, 2, 3 });
+
+        arr.RemoveAt(0);
+
+        Assert.Equal(2, arr[0]);
+        Assert.Equal(3, arr[1]);
+        Assert.Equal(2, arr.Length);
+        Assert.Throws<IndexOutOfRangeException>(() => arr.RemoveAt(-1));
+        Assert.Throws<IndexOutOfRangeException>(() => arr.RemoveAt(4));
+    }
+
+    [Fact]
+    public void IEnumerable_Test()
+    {
+        var arr = new Array<int>(8);
+        arr.Add(1);
+        arr.Add(2);
+        arr.Add(3);
+
+        var newArr = new Array<int>(arr.Length);
+        foreach(var item in arr)
+            newArr.Add((int) item);
+
+        Assert.Equal(1, newArr[0]);
+        Assert.Equal(2, newArr[1]);
+        Assert.Equal(3, newArr[2]);
+        Assert.Equal(3, newArr.Length);
+    }
+
+    
+    [Fact]
+    public void Sort_Test()
+    {
+        var arr = new Array<int>();
+        arr.Add(2);
+        arr.Add(1);
+        arr.Add(0);
+        arr.Add(4);
+
+        var newArray = arr.Sort();
+
+        Assert.Equal(0, newArray[0]);
+        Assert.Equal(1, newArray[1]);
+        Assert.Equal(2, newArray[2]);
+        Assert.Equal(4, newArray[3]);
+    }
 }
 
