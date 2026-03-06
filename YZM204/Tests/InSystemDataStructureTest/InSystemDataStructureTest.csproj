@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Data Structures\Conversions\Conversions.csproj" />
+    <ProjectReference Include="..\..\Data Structures\InSystemDataStructure\InSystemDataStructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
