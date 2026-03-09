@@ -29,19 +29,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{962E138F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Papers", "Papers", "{029C2208-A71E-4090-A02B-E11002ABD6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversions", "YZM204\Data Structures\Conversions\Conversions.csproj", "{CE8CEE65-0687-D5D1-81D5-7017AAC6A144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conversions", "YZM204\Data Structures\Conversions\Conversions.csproj", "{CE8CEE65-0687-D5D1-81D5-7017AAC6A144}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problems", "Problems", "{E64AED1D-F5E5-481A-83AB-BF63C8051DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSystemDataStructure", "YZM204\Data Structures\InSystemDataStructure\InSystemDataStructure.csproj", "{476CAC41-7AC2-48E9-6A52-20934F227537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSystemDataStructure", "YZM204\Data Structures\InSystemDataStructure\InSystemDataStructure.csproj", "{476CAC41-7AC2-48E9-6A52-20934F227537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionTests", "YZM204\Tests\ConversionTests\ConversionTests.csproj", "{BAE2B0B5-7973-565E-D67A-411805287960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionTests", "YZM204\Tests\ConversionTests\ConversionTests.csproj", "{BAE2B0B5-7973-565E-D67A-411805287960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InSystemDataStructureTest", "YZM204\Tests\InSystemDataStructureTest\InSystemDataStructureTest.csproj", "{BAC036A4-3B1B-A199-C5C8-3A3E7A9997AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InSystemDataStructureTest", "YZM204\Tests\InSystemDataStructureTest\InSystemDataStructureTest.csproj", "{BAC036A4-3B1B-A199-C5C8-3A3E7A9997AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSProblem", "YZM204\Problems\OSProblem\OSProblem.csproj", "{AAD7D755-15E5-6289-E6D6-DEC5BD55E959}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSProblem", "YZM204\Problems\OSProblem\OSProblem.csproj", "{AAD7D755-15E5-6289-E6D6-DEC5BD55E959}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniOSConsole", "YZM204\Tests\MiniOSConsole\MiniOSConsole.csproj", "{653563DD-F971-FC29-2624-784A7FA16DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniOSConsole", "YZM204\Tests\MiniOSConsole\MiniOSConsole.csproj", "{653563DD-F971-FC29-2624-784A7FA16DBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "DataStructures\LinkedList\LinkedList.csproj", "{D59A4DFA-7BAE-403D-A4FF-426C246738CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListConsoleApp", "Applications\LinkedListConsoleApp\LinkedListConsoleApp.csproj", "{0869FC0C-6DD5-4866-A1A9-B02C036F8718}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,14 @@ Global
 		{653563DD-F971-FC29-2624-784A7FA16DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{653563DD-F971-FC29-2624-784A7FA16DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{653563DD-F971-FC29-2624-784A7FA16DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59A4DFA-7BAE-403D-A4FF-426C246738CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59A4DFA-7BAE-403D-A4FF-426C246738CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59A4DFA-7BAE-403D-A4FF-426C246738CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59A4DFA-7BAE-403D-A4FF-426C246738CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0869FC0C-6DD5-4866-A1A9-B02C036F8718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0869FC0C-6DD5-4866-A1A9-B02C036F8718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0869FC0C-6DD5-4866-A1A9-B02C036F8718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0869FC0C-6DD5-4866-A1A9-B02C036F8718}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +130,8 @@ Global
 		{BAC036A4-3B1B-A199-C5C8-3A3E7A9997AC} = {962E138F-B59A-4A86-A249-2356C53E0FA2}
 		{AAD7D755-15E5-6289-E6D6-DEC5BD55E959} = {E64AED1D-F5E5-481A-83AB-BF63C8051DF2}
 		{653563DD-F971-FC29-2624-784A7FA16DBA} = {962E138F-B59A-4A86-A249-2356C53E0FA2}
+		{D59A4DFA-7BAE-403D-A4FF-426C246738CE} = {19375B05-2227-437A-8E08-60292000D0C0}
+		{0869FC0C-6DD5-4866-A1A9-B02C036F8718} = {133885A6-60C6-4718-B07B-07A36633E271}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D5C68D7-43D2-4450-A014-BE42D74B664F}
