@@ -1,0 +1,46 @@
+@startuml Array
+
+class "Array<T>" {
+    - _items : T[]
+    - _count : int
+    __
+    + <<constructor>> Array(size : int = 4)
+    __
+    + this[index : int] : T {get; set}
+    + Length : int {get}
+    + Capacity : int {get}
+    __
+    + Add(item : T) : void
+    + Remove(item : T) : bool
+    + AddRange(items : IEnumerable<T>) : void
+    + Insert(index : int, item : T) : void
+    + IndexOf(item : T) : int
+    + Contains(item : T) : bool
+    + RemoveAt(index : int) : T
+    + GetEnumerator() : IEnumerator
+    + Sort() : T[]
+    __
+    - Swap(item1 : T, item2 : T) : void
+    - DoubleArray() : void
+}
+
+interface IEnumerable {
+    + GetEnumerator() : IEnumerator
+}
+
+interface IComparable {
+}
+
+"Array<T>" ..|> IEnumerable
+"Array<T>" ..> IComparable : <<uses>>\n<T : IComparable>
+
+note right of "Array<T>"
+    Genel dinamik dizi uygulaması
+    - Kapasite dolduğunda otomatik olarak yeniden boyutlandırılır
+    - IEnumerable'ı uygular
+    - Tip kısıtlaması: T, IComparable'ı uygulamalıdır.
+end note
+
+hide empty members
+
+@enduml

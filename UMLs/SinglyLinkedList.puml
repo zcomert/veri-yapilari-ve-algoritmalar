@@ -1,0 +1,76 @@
+@startuml SinglyLinkedList
+
+class "SinglyLinkedList<T>" {
+    + Head : SinglyLinkedListNode<T>
+    + Count : int {get}
+    __
+    + <<constructor>> SinglyLinkedList()
+    __
+    + AddFirst(item : T) : void
+    + AddAfter(node : SinglyLinkedListNode<T>, item : T) : void
+    + AddBefore(node : SinglyLinkedListNode<T>, item : T) : void
+    + AddLast(item : T) : void
+    + Remove(node : SinglyLinkedListNode<T>) : T
+    + RemoveFirst() : T
+    + RemoveLast() : T
+    + GetEnumerator() : IEnumerator<T>
+}
+
+class "SinglyLinkedListNode<T>" {
+    + Item : T?
+    + Next : SinglyLinkedListNode<T>
+    __
+    + <<constructor>> SinglyLinkedListNode()
+    + <<constructor>> SinglyLinkedListNode(item : T?)
+    __
+    + ToString() : string
+}
+
+class "SinglyLinkedListEnumerator<T>" {
+    - _head : SinglyLinkedListNode<T>
+    - _current : SinglyLinkedListNode<T>
+    __
+    + <<constructor>> SinglyLinkedListEnumerator(head : SinglyLinkedListNode<T>)
+    __
+    + Current : T {get}
+    __
+    + Dispose() : void
+    + MoveNext() : bool
+    + Reset() : void
+}
+
+interface "IEnumerable<T>" {
+    + GetEnumerator() : IEnumerator<T>
+}
+
+interface "IEnumerator<T>" {
+    + Current : T {get}
+    + MoveNext() : bool
+    + Reset() : void
+    + Dispose() : void
+}
+
+"SinglyLinkedList<T>" ..|> "IEnumerable<T>"
+"SinglyLinkedListEnumerator<T>" ..|> "IEnumerator<T>"
+
+"SinglyLinkedList<T>" o-- "SinglyLinkedListNode<T>" : Head
+"SinglyLinkedListNode<T>" o-- "SinglyLinkedListNode<T>" : Next
+"SinglyLinkedList<T>" ..> "SinglyLinkedListEnumerator<T>" : <<creates>>
+"SinglyLinkedListEnumerator<T>" ..> "SinglyLinkedListNode<T>" : <<uses>>
+
+note right of "SinglyLinkedList<T>"
+    Genel tek bağlantılı liste uygulaması
+    - IEnumerable<T>'yi uygular
+    - Özel numaralandırıcı desteği
+    - Henüz uygulanmamış bazı yöntemler
+end note
+
+note left of "SinglyLinkedListNode<T>"
+    Bağlantılı liste için düğüm yapısı
+    - Verileri ve bir sonraki düğüme referansı içerir
+    - Öz-referanslı yapı
+end note
+
+hide empty members
+
+@enduml
