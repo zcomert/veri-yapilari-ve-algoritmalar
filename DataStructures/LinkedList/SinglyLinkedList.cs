@@ -4,7 +4,7 @@ using System.Collections;
 namespace LinkedList;
 public class SinglyLinkedList<T> : IEnumerable<T>
 {
-    public Node<T> Head { get; set; }
+    public SinglyLinkedListNode<T> Head { get; set; }
     
     public int Count { get; }
 
@@ -15,7 +15,7 @@ public class SinglyLinkedList<T> : IEnumerable<T>
 
     public void AddFirst(T item)
     {
-        var newNode = new Node<T>(item);
+        var newNode = new SinglyLinkedListNode<T>(item);
         if (Head is null)
         {
             Head = newNode;
@@ -37,12 +37,12 @@ public class SinglyLinkedList<T> : IEnumerable<T>
        return GetEnumerator();
     }
 
-    public void AddAfter(Node<T> node, T item)
+    public void AddAfter(SinglyLinkedListNode<T> node, T item)
     {
         throw new NotImplementedException();
     }
 
-    public void AddBefore(Node<T> node, T item)
+    public void AddBefore(SinglyLinkedListNode<T> node, T item)
     {
         throw new NotImplementedException();
     }
@@ -52,7 +52,7 @@ public class SinglyLinkedList<T> : IEnumerable<T>
         throw new NotImplementedException();
     }
 
-    public T Remove(Node<T> node)
+    public T Remove(SinglyLinkedListNode<T> node)
     {
         throw new NotImplementedException();
     }

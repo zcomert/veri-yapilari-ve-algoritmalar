@@ -5,9 +5,9 @@ namespace LinkedList;
 
 public class SinglyLinkedListEnumerator<T> : IEnumerator<T>
 {
-    private Node<T> _head;
-    private Node<T> _current;
-    public SinglyLinkedListEnumerator(Node<T> head)
+    private SinglyLinkedListNode<T> _head;
+    private SinglyLinkedListNode<T> _current;
+    public SinglyLinkedListEnumerator(SinglyLinkedListNode<T> head)
     {
         _head = head;
         _current = null; // Başlangıçta null, ilk MoveNext çağrısında head'e gider
