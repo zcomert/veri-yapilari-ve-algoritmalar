@@ -1,4 +1,4 @@
-using LinkedList;
+using LinkedList.SinglyLinkedList;
 
 namespace LinkedListTests
 {
@@ -12,9 +12,9 @@ namespace LinkedListTests
             linkedList.AddFirst(2);
             linkedList.AddFirst(3);
 
-            Assert.Equal(3, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
-            Assert.Equal(1, linkedList.Head.Next.Next.Item);
+            Assert.Equal(3, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
+            Assert.Equal(1, linkedList.Head.Next.Next!.Item);
             Assert.Equal(3, linkedList.Count);
         }
 
@@ -26,9 +26,9 @@ namespace LinkedListTests
             linkedList.AddLast(2);
             linkedList.AddLast(3);
 
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
-            Assert.Equal(3, linkedList.Head.Next.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
+            Assert.Equal(3, linkedList.Head.Next.Next!.Item);
             Assert.Equal(3, linkedList.Count);
         }
 
@@ -44,10 +44,10 @@ namespace LinkedListTests
             // var node = linkedList.Head.Next;
             linkedList.AddAfter(node, 5);
 
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
-            Assert.Equal(5, linkedList.Head.Next.Next.Item);
-            Assert.Equal(3, linkedList.Head.Next.Next.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
+            Assert.Equal(5, linkedList.Head.Next.Next!.Item);
+            Assert.Equal(3, linkedList.Head.Next.Next.Next!.Item);
             Assert.Equal(4, linkedList.Count);
         }
 
@@ -63,10 +63,10 @@ namespace LinkedListTests
             // var node = linkedList.Head.Next;
             linkedList.AddBefore(node, 5);
 
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(5, linkedList.Head.Next.Item);
-            Assert.Equal(2, linkedList.Head.Next.Next.Item);
-            Assert.Equal(3, linkedList.Head.Next.Next.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(5, linkedList.Head.Next!.Item);
+            Assert.Equal(2, linkedList.Head.Next.Next!.Item);
+            Assert.Equal(3, linkedList.Head.Next.Next.Next!.Item);
             Assert.Equal(4, linkedList.Count);
         }
 
@@ -84,8 +84,8 @@ namespace LinkedListTests
 
             var item = linkedList.RemoveFirst();
 
-            Assert.Equal(2, linkedList.Head.Item);
-            Assert.Equal(3, linkedList.Head.Next.Item);
+            Assert.Equal(2, linkedList.Head!.Item);
+            Assert.Equal(3, linkedList.Head.Next!.Item);
             Assert.Equal(1, item);
             Assert.Equal(2, linkedList.Count);
         }
@@ -104,8 +104,8 @@ namespace LinkedListTests
 
             var item = linkedList.RemoveLast();
 
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
             Assert.Equal(3, item);
             Assert.Equal(2, linkedList.Count);
         }
@@ -127,15 +127,15 @@ namespace LinkedListTests
 
             var item = linkedList.Remove(node);
 
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
-            Assert.Equal(4, linkedList.Head.Next.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
+            Assert.Equal(4, linkedList.Head.Next.Next!.Item);
             Assert.Equal(3, item);
             Assert.Equal(3, linkedList.Count);
 
             item = linkedList.Remove(new SinglyLinkedListNode<int>(4));
-            Assert.Equal(1, linkedList.Head.Item);
-            Assert.Equal(2, linkedList.Head.Next.Item);
+            Assert.Equal(1, linkedList.Head!.Item);
+            Assert.Equal(2, linkedList.Head.Next!.Item);
             Assert.Equal(4, item);
             Assert.Equal(2, linkedList.Count);
         }
@@ -156,19 +156,19 @@ namespace LinkedListTests
             list1.Merge(list2); // list1: 1 -> 2 -> 3 -> 4 -> 5 -> 6 (Count: 6)
 
             Assert.Equal(6, list1.Count);
-            Assert.Equal(1, list1.Head.Item);
-            Assert.Equal(2, list1.Head.Next.Item);
-            Assert.Equal(3, list1.Head.Next.Next.Item);
-            Assert.Equal(4, list1.Head.Next.Next.Next.Item);
-            Assert.Equal(5, list1.Head.Next.Next.Next.Next.Item);
-            Assert.Equal(6, list1.Head.Next.Next.Next.Next.Next.Item);
+            Assert.Equal(1, list1.Head!.Item);
+            Assert.Equal(2, list1.Head.Next!.Item);
+            Assert.Equal(3, list1.Head.Next.Next!.Item);
+            Assert.Equal(4, list1.Head.Next.Next.Next!.Item);
+            Assert.Equal(5, list1.Head.Next.Next.Next.Next!.Item);
+            Assert.Equal(6, list1.Head.Next.Next.Next.Next.Next!.Item);
             Assert.Null(list1.Head.Next.Next.Next.Next.Next.Next);
 
             // Ensure list2 remains intact as its nodes are now part of list1
             Assert.Equal(3, list2.Count);
-            Assert.Equal(4, list2.Head.Item);
-            Assert.Equal(5, list2.Head.Next.Item);
-            Assert.Equal(6, list2.Head.Next.Next.Item);
+            Assert.Equal(4, list2.Head!.Item);
+            Assert.Equal(5, list2.Head.Next!.Item);
+            Assert.Equal(6, list2.Head.Next.Next!.Item);
         }
 
         [Fact]
@@ -183,8 +183,8 @@ namespace LinkedListTests
             list1.Merge(list2); // list1: 1 -> 2 (Count: 2)
 
             Assert.Equal(2, list1.Count);
-            Assert.Equal(1, list1.Head.Item);
-            Assert.Equal(2, list1.Head.Next.Item);
+            Assert.Equal(1, list1.Head!.Item);
+            Assert.Equal(2, list1.Head.Next!.Item);
             Assert.Null(list1.Head.Next.Next);
 
             // Ensure list2 remains empty
@@ -204,14 +204,14 @@ namespace LinkedListTests
             list1.Merge(list2); // list1: 4 -> 5 (Count: 2)
 
             Assert.Equal(2, list1.Count);
-            Assert.Equal(4, list1.Head.Item);
-            Assert.Equal(5, list1.Head.Next.Item);
+            Assert.Equal(4, list1.Head!.Item);
+            Assert.Equal(5, list1.Head.Next!.Item);
             Assert.Null(list1.Head.Next.Next);
 
             // Ensure list2 remains intact as its nodes are now part of list1
             Assert.Equal(2, list2.Count);
-            Assert.Equal(4, list2.Head.Item);
-            Assert.Equal(5, list2.Head.Next.Item);
+            Assert.Equal(4, list2.Head!.Item);
+            Assert.Equal(5, list2.Head.Next!.Item);
         }
 
         [Fact]

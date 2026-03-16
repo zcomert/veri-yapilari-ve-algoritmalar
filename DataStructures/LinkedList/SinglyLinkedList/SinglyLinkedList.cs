@@ -1,7 +1,7 @@
 ﻿
 using System.Collections;
 
-namespace LinkedList;
+namespace LinkedList.SinglyLinkedList;
 public class SinglyLinkedList<T> : IEnumerable<T>
 {
     private int _count = 0;

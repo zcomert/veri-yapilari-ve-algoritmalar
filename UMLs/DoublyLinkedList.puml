@@ -1,0 +1,80 @@
+@startuml DoublyLinkedList
+
+class "DoublyLinkedList<T>" {
+    + Head : DoublyLinkedListNode<T>?
+    + Tail : DoublyLinkedListNode<T>?
+    + Count : int {get}
+    __
+    + <<constructor>> DoublyLinkedList()
+    __
+    + AddFirst(item : T) : void
+    + AddLast(item : T) : void
+    + AddAfter(node : DoublyLinkedListNode<T>, item : T) : void
+    + AddBefore(node : DoublyLinkedListNode<T>, item : T) : void
+    + RemoveFirst() : T?
+    + RemoveLast() : T?
+    + Remove(node : DoublyLinkedListNode<T>) : T?
+    + GetEnumerator() : IEnumerator<T>
+}
+
+class "DoublyLinkedListNode<T>" {
+    + Item : T?
+    + Next : DoublyLinkedListNode<T>?
+    + Prev : DoublyLinkedListNode<T>?
+    __
+    + <<constructor>> DoublyLinkedListNode()
+    + <<constructor>> DoublyLinkedListNode(item : T?)
+    __
+    + ToString() : string
+}
+
+class "DoublyLinkedListEnumerator<T>" {
+    - _head : DoublyLinkedListNode<T>?
+    - _current : DoublyLinkedListNode<T>?
+    __
+    + <<constructor>> DoublyLinkedListEnumerator(head : DoublyLinkedListNode<T>?)
+    __
+    + Current : T? {get}
+    __
+    + Dispose() : void
+    + MoveNext() : bool
+    + Reset() : void
+}
+
+interface "IEnumerable<T>" {
+    + GetEnumerator() : IEnumerator<T>
+}
+
+interface "IEnumerator<T>" {
+    + Current : T? {get}
+    + MoveNext() : bool
+    + Reset() : void
+    + Dispose() : void
+}
+
+"DoublyLinkedList<T>" ..|> "IEnumerable<T>"
+"DoublyLinkedListEnumerator<T>" ..|> "IEnumerator<T>"
+
+"DoublyLinkedList<T>" o-- "DoublyLinkedListNode<T>" : Head
+"DoublyLinkedList<T>" o-- "DoublyLinkedListNode<T>" : Tail
+"DoublyLinkedListNode<T>" o-- "DoublyLinkedListNode<T>" : Next
+"DoublyLinkedListNode<T>" o-- "DoublyLinkedListNode<T>" : Prev
+"DoublyLinkedList<T>" ..> "DoublyLinkedListEnumerator<T>" : <<creates>>
+"DoublyLinkedListEnumerator<T>" ..> "DoublyLinkedListNode<T>" : <<uses>>
+
+note right of "DoublyLinkedList<T>"
+    Genel çift bağlantılı liste uygulaması
+    - IEnumerable<T>'yi uygular
+    - Head ve Tail referanslarını tutar
+    - İleri ve geri yönde gezinme desteği
+end note
+
+note left of "DoublyLinkedListNode<T>"
+    Çift bağlantılı liste için düğüm yapısı
+    - Verileri, sonraki ve önceki düğüm referanslarını içerir
+    - Çift yönlü öz-referanslı yapı
+end note
+
+hide empty members
+
+@enduml
