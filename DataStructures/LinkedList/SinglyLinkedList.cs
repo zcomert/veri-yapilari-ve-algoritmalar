@@ -154,6 +154,26 @@ public class SinglyLinkedList<T> : IEnumerable<T>
         return item;
     }
 
+    public void Merge(SinglyLinkedList<T> otherList)
+    {
+        if (otherList is null || otherList.Head is null)
+            return;
+
+        if (Head is null)
+        {
+            Head = otherList.Head;
+            _count += otherList.Count;
+            return;
+        }
+
+        var curr = Head;
+        while (curr.Next != null)
+            curr = curr.Next;
+
+        curr.Next = otherList.Head;
+        _count += otherList.Count;
+    }
+
     public IEnumerator<T> GetEnumerator()
     {
         return new SinglyLinkedListEnumerator<T>(Head);
