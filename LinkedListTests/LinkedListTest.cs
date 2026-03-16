@@ -139,5 +139,95 @@ namespace LinkedListTests
             Assert.Equal(4, item);
             Assert.Equal(2, linkedList.Count);
         }
+
+        [Fact]
+        public void Merge_Two_Non_Empty_Lists_Test()
+        {
+            var list1 = new SinglyLinkedList<int>();
+            list1.AddLast(1);
+            list1.AddLast(2);
+            list1.AddLast(3); // list1: 1 -> 2 -> 3 (Count: 3)
+
+            var list2 = new SinglyLinkedList<int>();
+            list2.AddLast(4);
+            list2.AddLast(5);
+            list2.AddLast(6); // list2: 4 -> 5 -> 6 (Count: 3)
+
+            list1.Merge(list2); // list1: 1 -> 2 -> 3 -> 4 -> 5 -> 6 (Count: 6)
+
+            Assert.Equal(6, list1.Count);
+            Assert.Equal(1, list1.Head.Item);
+            Assert.Equal(2, list1.Head.Next.Item);
+            Assert.Equal(3, list1.Head.Next.Next.Item);
+            Assert.Equal(4, list1.Head.Next.Next.Next.Item);
+            Assert.Equal(5, list1.Head.Next.Next.Next.Next.Item);
+            Assert.Equal(6, list1.Head.Next.Next.Next.Next.Next.Item);
+            Assert.Null(list1.Head.Next.Next.Next.Next.Next.Next);
+
+            // Ensure list2 remains intact as its nodes are now part of list1
+            Assert.Equal(3, list2.Count);
+            Assert.Equal(4, list2.Head.Item);
+            Assert.Equal(5, list2.Head.Next.Item);
+            Assert.Equal(6, list2.Head.Next.Next.Item);
+        }
+
+        [Fact]
+        public void Merge_With_Empty_OtherList_Test()
+        {
+            var list1 = new SinglyLinkedList<int>();
+            list1.AddLast(1);
+            list1.AddLast(2); // list1: 1 -> 2 (Count: 2)
+
+            var list2 = new SinglyLinkedList<int>(); // list2: empty (Count: 0)
+
+            list1.Merge(list2); // list1: 1 -> 2 (Count: 2)
+
+            Assert.Equal(2, list1.Count);
+            Assert.Equal(1, list1.Head.Item);
+            Assert.Equal(2, list1.Head.Next.Item);
+            Assert.Null(list1.Head.Next.Next);
+
+            // Ensure list2 remains empty
+            Assert.Equal(0, list2.Count);
+            Assert.Null(list2.Head);
+        }
+
+        [Fact]
+        public void Merge_With_ThisList_Empty_Test()
+        {
+            var list1 = new SinglyLinkedList<int>(); // list1: empty (Count: 0)
+
+            var list2 = new SinglyLinkedList<int>();
+            list2.AddLast(4);
+            list2.AddLast(5); // list2: 4 -> 5 (Count: 2)
+
+            list1.Merge(list2); // list1: 4 -> 5 (Count: 2)
+
+            Assert.Equal(2, list1.Count);
+            Assert.Equal(4, list1.Head.Item);
+            Assert.Equal(5, list1.Head.Next.Item);
+            Assert.Null(list1.Head.Next.Next);
+
+            // Ensure list2 remains intact as its nodes are now part of list1
+            Assert.Equal(2, list2.Count);
+            Assert.Equal(4, list2.Head.Item);
+            Assert.Equal(5, list2.Head.Next.Item);
+        }
+
+        [Fact]
+        public void Merge_Both_Lists_Empty_Test()
+        {
+            var list1 = new SinglyLinkedList<int>(); // list1: empty (Count: 0)
+            var list2 = new SinglyLinkedList<int>(); // list2: empty (Count: 0)
+
+            list1.Merge(list2); // list1: empty (Count: 0)
+
+            Assert.Equal(0, list1.Count);
+            Assert.Null(list1.Head);
+
+            // Ensure list2 remains empty
+            Assert.Equal(0, list2.Count);
+            Assert.Null(list2.Head);
+        }
     }
 }
