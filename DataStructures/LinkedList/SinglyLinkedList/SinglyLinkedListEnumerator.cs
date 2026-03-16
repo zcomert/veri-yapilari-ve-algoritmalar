@@ -1,7 +1,7 @@
 ﻿
 using System.Collections;
 
-namespace LinkedList;
+namespace LinkedList.SinglyLinkedList;
 
 public class SinglyLinkedListEnumerator<T> : IEnumerator<T>
 {
@@ -33,7 +33,7 @@ public class SinglyLinkedListEnumerator<T> : IEnumerator<T>
             // Sonraki elemana geç
             _current = _current.Next;
         }
-        
+
         return _current != null;
     }
 
