@@ -1,0 +1,47 @@
+@startuml Stack
+
+interface "IStack<T>" {
+    + Push(item : T) : void
+    + Pop() : T
+    + Peek() : T
+    + Clear() : void
+    + Count : int {get}
+    + IsEmpty : bool {get}
+}
+
+class "ArrayStack<T>" {
+    - _items : T[]
+    - _count : int
+    - {static} DefaultCapacity : int = 4
+    __
+    + <<constructor>> ArrayStack()
+    + <<constructor>> ArrayStack(initialCapacity : int)
+    __
+    + Count : int {get}
+    + IsEmpty : bool {get}
+    __
+    + Push(item : T) : void
+    + Pop() : T
+    + Peek() : T
+    + Clear() : void
+    __
+    - EnsureCapacity() : void
+}
+
+"ArrayStack<T>" .up.|> "IStack<T>" : "<<implements>>""
+
+note right of "IStack<T>"
+    Yığın (Stack) için Soyut Veri Tipi (ADT) arayüzü.
+    LIFO (Last-In, First-Out) prensibine dayanır.
+end note
+
+note bottom of "ArrayStack<T>"
+    Dizi tabanlı Yığın uygulaması.
+    - Dinamik olarak büyüyen bir dizi kullanır.
+    - Bellek yönetimi için Pop işleminden sonra 
+      referansları temizler (default!).
+end note
+
+hide empty members
+
+@enduml

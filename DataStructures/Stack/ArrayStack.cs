@@ -61,7 +61,10 @@ public class ArrayStack<T> : IStack<T>
     {
         if (_count == _items.Length)
         {
-            int newCapacity = _items.Length == 0 ? DefaultCapacity : _items.Length * 2;
+            int newCapacity = _items.Length == 0
+                ? DefaultCapacity 
+                : _items.Length * 2;
+
             T[] newItems = new T[newCapacity];
             Array.Copy(_items, newItems, _count);
             _items = newItems;
