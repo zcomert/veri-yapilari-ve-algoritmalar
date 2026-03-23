@@ -30,6 +30,23 @@ class "ArrayStack<T>" {
 
 "ArrayStack<T>" .up.|> "IStack<T>" : "<<implements>>""
 
+class "LinkedListStack<T>" {
+    - _items : SinglyLinkedList<T>
+    - _count : int
+    __
+    + <<constructor>> LinkedListStack()
+    __
+    + Count : int {get}
+    + IsEmpty : bool {get}
+    __
+    + Push(item : T) : void
+    + Pop() : T
+    + Peek() : T
+    + Clear() : void
+}
+
+"LinkedListStack<T>" .up.|> "IStack<T>" : "<<implements>>"
+
 note right of "IStack<T>"
     Yığın (Stack) için Soyut Veri Tipi (ADT) arayüzü.
     LIFO (Last-In, First-Out) prensibine dayanır.
@@ -40,6 +57,12 @@ note bottom of "ArrayStack<T>"
     - Dinamik olarak büyüyen bir dizi kullanır.
     - Bellek yönetimi için Pop işleminden sonra 
       referansları temizler (default!).
+end note
+
+note bottom of "LinkedListStack<T>"
+    Bağlı Liste tabanlı Yığın uygulaması.
+    - Dinamik olarak büyür (bellek sınırı dahilinde).
+    - Tek yönlü bağlı liste (SinglyLinkedList) kullanır.
 end note
 
 hide empty members

@@ -29,12 +29,6 @@ public class LinkedListStack<T> : IStack<T>
         return _items.Head.Item;
     }
 
-    public T Pop()
-    {
-        var popItem = _items.RemoveFirst();
-        _count--;
-        return popItem;
-    }
 
     public void Push(T item)
     {
@@ -42,5 +36,13 @@ public class LinkedListStack<T> : IStack<T>
         _items.AddFirst(item);
         _count++;
         return;
+    }
+
+    
+    public T Pop()
+    {
+        var popItem = _items.RemoveFirst();
+        _count--;
+        return popItem;
     }
 }
