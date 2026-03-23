@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListConsoleApp", "App
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListTests", "Tests\LinkedListTests\LinkedListTests.csproj", "{27E4CE5F-3099-4DE3-9585-0F4A78254D9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "DataStructures\Stack\Stack.csproj", "{6C7B0C36-7A48-4161-9245-092A015571F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,10 @@ Global
 		{27E4CE5F-3099-4DE3-9585-0F4A78254D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E4CE5F-3099-4DE3-9585-0F4A78254D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E4CE5F-3099-4DE3-9585-0F4A78254D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7B0C36-7A48-4161-9245-092A015571F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7B0C36-7A48-4161-9245-092A015571F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7B0C36-7A48-4161-9245-092A015571F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7B0C36-7A48-4161-9245-092A015571F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +145,7 @@ Global
 		{D59A4DFA-7BAE-403D-A4FF-426C246738CE} = {19375B05-2227-437A-8E08-60292000D0C0}
 		{0869FC0C-6DD5-4866-A1A9-B02C036F8718} = {133885A6-60C6-4718-B07B-07A36633E271}
 		{27E4CE5F-3099-4DE3-9585-0F4A78254D9C} = {3E7E80AC-A9DC-4A1C-93B3-2E19D31CC532}
+		{6C7B0C36-7A48-4161-9245-092A015571F8} = {19375B05-2227-437A-8E08-60292000D0C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D5C68D7-43D2-4450-A014-BE42D74B664F}
