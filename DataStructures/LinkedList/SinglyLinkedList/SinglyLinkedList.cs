@@ -116,7 +116,7 @@ public class SinglyLinkedList<T> : IEnumerable<T>
         if (Head is null)
             throw new Exception("SinglyLinkedList is empty!");
 
-        if (Head.Next.Equals(null)) // _count == 1;
+        if (_count == 1)
         {
             item = Head.Item;
             Head = null;
