@@ -32,7 +32,6 @@ public class LinkedListStack<T> : IStack<T>
 
     public void Push(T item)
     {
-        // 3 -> 2 -> 1 -> null
         _items.AddFirst(item);
         _count++;
         return;

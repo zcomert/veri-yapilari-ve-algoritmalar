@@ -1,0 +1,61 @@
+@startuml Queue
+
+interface IQueue<T> {
+    + void Enqueue(T item)
+    + T Dequeu()
+    + T Peek()
+    + void Clear()
+    + int Count
+    + bool IsEmpty
+}
+
+class Queue<T> {
+    - IQueue<T> _queue
+    --
+    + Queue()
+    + int Count
+    + bool IsEmpty
+    + void Clear()
+    + T Dequeu()
+    + void Enqueue(T item)
+    + T Peek()
+}
+
+class QueueArray<T> {
+    - Array<T> array
+    --
+    + QueueArray()
+    + int Count
+    + bool IsEmpty
+    + void Clear()
+    + T Dequeu()
+    + void Enqueue(T item)
+    + T Peek()
+}
+
+class QueueLinkedList<T> {
+    - DoublyLinkedList<T> linkedList
+    --
+    + QueueLinkedList()
+    + int Count
+    + bool IsEmpty
+    + void Clear()
+    + T Dequeu()
+    + void Enqueue(T item)
+    + T Peek()
+}
+
+class Array<T>
+class DoublyLinkedList<T>
+
+Queue ..|> IQueue : implements
+QueueArray ..|> IQueue : implements
+QueueLinkedList ..|> IQueue : implements
+
+Queue o--> IQueue : _queue
+Queue ..> QueueLinkedList : <<creates>>
+QueueArray --> Array : uses
+QueueLinkedList --> DoublyLinkedList : uses
+
+hide empty members
+@enduml
