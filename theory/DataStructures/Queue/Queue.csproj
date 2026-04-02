@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataStructures\Array\Array.csproj" />
-    <ProjectReference Include="..\DataStructures\LinkedList\LinkedList.csproj" />
+    <ProjectReference Include="..\Array\Array.csproj" />
+    <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
   </ItemGroup>
 
 </Project>

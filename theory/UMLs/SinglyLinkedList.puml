@@ -1,6 +1,7 @@
 @startuml SinglyLinkedList
 
 class "SinglyLinkedList<T>" {
+    - _count : int
     + Head : SinglyLinkedListNode<T>
     + Count : int {get}
     __
@@ -13,6 +14,7 @@ class "SinglyLinkedList<T>" {
     + Remove(node : SinglyLinkedListNode<T>) : T
     + RemoveFirst() : T
     + RemoveLast() : T
+    + Merge(otherList : SinglyLinkedList<T>) : void
     + GetEnumerator() : IEnumerator<T>
 }
 
@@ -62,7 +64,7 @@ note right of "SinglyLinkedList<T>"
     Genel tek bağlantılı liste uygulaması
     - IEnumerable<T>'yi uygular
     - Özel numaralandırıcı desteği
-    - Henüz uygulanmamış bazı yöntemler
+    - Merge ile iki liste birleştirilebilir
 end note
 
 note left of "SinglyLinkedListNode<T>"
