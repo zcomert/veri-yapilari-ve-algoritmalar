@@ -30,6 +30,8 @@ public static class Quicksort
             while (array[j].CompareTo(pivot) > 0) { j--; }
             if (i >= j) break;
             Sorting.Swap<T>(array, i, j);
+            i++;
+            j--;
         } while (i <= j);
 
         return j;
