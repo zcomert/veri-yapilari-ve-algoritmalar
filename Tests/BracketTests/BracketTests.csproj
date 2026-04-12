@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Brackets\Brackets.csproj" />
+    <ProjectReference Include="..\..\Applications\Brackets\Brackets.csproj" />
   </ItemGroup>
 
   <ItemGroup>

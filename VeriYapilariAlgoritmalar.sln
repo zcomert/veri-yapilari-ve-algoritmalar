@@ -51,9 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListTests", "Tests\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "DataStructures\Stack\Stack.csproj", "{6C7B0C36-7A48-4161-9245-092A015571F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackets", "Brackets\Brackets.csproj", "{F42394E8-1928-421C-BB35-9A3335FEA0D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackets", "Applications\Brackets\Brackets.csproj", "{F42394E8-1928-421C-BB35-9A3335FEA0D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketTests", "BracketTests\BracketTests.csproj", "{B6989379-ECAB-48CA-8CF7-E60401BFDDC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketTests", "Tests\BracketTests\BracketTests.csproj", "{B6989379-ECAB-48CA-8CF7-E60401BFDDC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "DataStructures\Queue\Queue.csproj", "{7D621BC4-136A-107B-3937-32D7C9B12CE1}"
 EndProject
