@@ -1,0 +1,108 @@
+@startuml SortingAlgorithms
+
+class "Sorting" {
+    + {static} Swap<T>(array : T[], first : int, second : int) : void
+}
+
+class "BubbleSort" {
+    + {static} Sort<T>(arr : T[]) : void
+}
+
+class "InsertionSort" {
+    + {static} Sort<T>(array : T[], sortDirection : SortDirection = Asceding) : T[]
+}
+
+class "SelectionSort" {
+    + {static} Sort<T>(array : T[]) : void
+    + {static} Sort<T>(array : T[], sortDirection : SortDirection = Asceding) : void
+}
+
+class "MergeSort" {
+    + {static} Sort<T>(arr : T[]) : void
+    - {static} Sort<T>(array : T[], left : int, right : int) : void
+    - {static} Merge<T>(array : T[], left : int, middle : int, right : int) : void
+}
+
+class "Quicksort" <<static>> {
+    + {static} Sort<T>(array : T[]) : void
+    - {static} Sort<T>(array : T[], lower : int, upper : int) : void
+    - {static} Partition<T>(array : T[], lower : int, upper : int) : int
+}
+
+class "CustomComparer<T>" {
+    - isMax : bool
+    - _comparer : IComparer<T>
+    __
+    + <<constructor>> CustomComparer(sortDirection : SortDirection, comparer : IComparer<T>)
+    + Compare(x : T, y : T) : int
+}
+
+enum "SortDirection" {
+    Asceding = 0
+    Descending = 1
+}
+
+interface "IComparable" {
+}
+
+interface "IComparable<T>" {
+}
+
+interface "IComparer<T>" {
+    + Compare(x : T, y : T) : int
+}
+
+"CustomComparer<T>" ..|> "IComparer<T>"
+
+"BubbleSort" ..> "Sorting" : <<uses>>\nSwap<T>()
+"BubbleSort" ..> "IComparable<T>" : <<constraint>>
+
+"InsertionSort" ..> "Sorting" : <<uses>>\nSwap<T>()
+"InsertionSort" ..> "CustomComparer<T>" : <<creates>>
+"InsertionSort" ..> "SortDirection" : <<uses>>
+"InsertionSort" ..> "IComparable" : <<constraint>>
+
+"SelectionSort" ..> "Sorting" : <<uses>>\nSwap<T>()
+"SelectionSort" ..> "CustomComparer<T>" : <<creates>>
+"SelectionSort" ..> "SortDirection" : <<uses>>
+"SelectionSort" ..> "IComparable" : <<constraint>>
+
+"MergeSort" ..> "IComparable" : <<constraint>>
+"MergeSort" ..> "MergeSort" : <<recursive>>
+
+"Quicksort" ..> "Sorting" : <<uses>>\nSwap<T>()
+"Quicksort" ..> "IComparable" : <<constraint>>
+"Quicksort" ..> "Quicksort" : <<recursive>>
+
+note right of "Sorting"
+    Sorting algorithms use this
+    shared helper class.
+    - Swaps two items in an array
+end note
+
+note bottom of "InsertionSort"
+    Insertion sort implementation.
+    - Default direction: Asceding
+    - Uses CustomComparer<T> for comparisons
+end note
+
+note bottom of "SelectionSort"
+    Selection sort implementation.
+    - Includes both a simple overload and a
+      SortDirection-based overload
+end note
+
+note bottom of "MergeSort"
+    Divide-and-conquer sorting algorithm.
+    - Uses recursive Sort and Merge helpers
+end note
+
+note bottom of "Quicksort"
+    Quicksort implementation.
+    - Uses Partition to place the pivot
+    - Recursively sorts subranges
+end note
+
+hide empty members
+
+@enduml

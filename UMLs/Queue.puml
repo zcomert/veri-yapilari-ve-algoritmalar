@@ -1,61 +1,90 @@
 @startuml Queue
 
-interface IQueue<T> {
-    + void Enqueue(T item)
-    + T Dequeu()
-    + T Peek()
-    + void Clear()
-    + int Count
-    + bool IsEmpty
+interface "IQueue<T>" {
+    + Enqueue(item : T) : void
+    + Dequeu() : T
+    + Peek() : T
+    + Clear() : void
+    + Count : int {get}
+    + IsEmpty : bool {get}
 }
 
-class Queue<T> {
-    - IQueue<T> _queue
-    --
-    + Queue()
-    + int Count
-    + bool IsEmpty
-    + void Clear()
-    + T Dequeu()
-    + void Enqueue(T item)
-    + T Peek()
+class "Queue<T>" {
+    - _queue : IQueue<T>
+    __
+    + <<constructor>> Queue()
+    __
+    + Count : int {get}
+    + IsEmpty : bool {get}
+    __
+    + Clear() : void
+    + Dequeu() : T
+    + Enqueue(item : T) : void
+    + Peek() : T
 }
 
-class QueueArray<T> {
-    - Array<T> array
-    --
-    + QueueArray()
-    + int Count
-    + bool IsEmpty
-    + void Clear()
-    + T Dequeu()
-    + void Enqueue(T item)
-    + T Peek()
+class "QueueArray<T>" {
+    - array : Array<T>
+    __
+    + <<constructor>> QueueArray()
+    __
+    + Count : int {get}
+    + IsEmpty : bool {get}
+    __
+    + Clear() : void
+    + Dequeu() : T
+    + Enqueue(item : T) : void
+    + Peek() : T
 }
 
-class QueueLinkedList<T> {
-    - DoublyLinkedList<T> linkedList
-    --
-    + QueueLinkedList()
-    + int Count
-    + bool IsEmpty
-    + void Clear()
-    + T Dequeu()
-    + void Enqueue(T item)
-    + T Peek()
+class "QueueLinkedList<T>" {
+    - linkedList : DoublyLinkedList<T>
+    __
+    + <<constructor>> QueueLinkedList()
+    __
+    + Count : int {get}
+    + IsEmpty : bool {get}
+    __
+    + Clear() : void
+    + Dequeu() : T
+    + Enqueue(item : T) : void
+    + Peek() : T
 }
 
-class Array<T>
-class DoublyLinkedList<T>
+class "Array<T>"
+class "DoublyLinkedList<T>"
+interface "IComparable" {
+}
 
-Queue ..|> IQueue : implements
-QueueArray ..|> IQueue : implements
-QueueLinkedList ..|> IQueue : implements
+"Queue<T>" ..|> "IQueue<T>"
+"QueueArray<T>" ..|> "IQueue<T>"
+"QueueLinkedList<T>" ..|> "IQueue<T>"
 
-Queue o--> IQueue : _queue
-Queue ..> QueueLinkedList : <<creates>>
-QueueArray --> Array : uses
-QueueLinkedList --> DoublyLinkedList : uses
+"Queue<T>" o-- "IQueue<T>" : _queue
+"Queue<T>" ..> "QueueLinkedList<T>" : <<creates>>
+"QueueArray<T>" --> "Array<T>" : <<uses>>
+"QueueArray<T>" ..> "IComparable" : <<constraint>>
+"QueueLinkedList<T>" --> "DoublyLinkedList<T>" : <<uses>>
+
+note right of "Queue<T>"
+    Wrapper queue implementation.
+    - Delegates all operations to an
+      internal IQueue<T> instance
+    - Default implementation is QueueLinkedList<T>
+end note
+
+note bottom of "QueueArray<T>"
+    Array-backed queue implementation.
+    - Uses Array<T> from the Array project
+    - Requires T : IComparable
+end note
+
+note bottom of "QueueLinkedList<T>"
+    Linked-list-backed queue implementation.
+    - Uses DoublyLinkedList<T> from the
+      LinkedList project
+end note
 
 hide empty members
+
 @enduml
