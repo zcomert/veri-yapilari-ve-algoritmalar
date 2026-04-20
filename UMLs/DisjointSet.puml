@@ -1,0 +1,50 @@
+@startuml DisjointSet
+
+class "DisjointSet<T>" {
+    - set : Dictionary<T, DisjointSetNode<T>>
+    + Count : int {get}
+    __
+    + <<constructor>> DisjointSet()
+    + <<constructor>> DisjointSet(collection : IEnumerable<T>)
+    __
+    + MakeSet(value : T) : void
+    + FindSet(value : T) : T
+    - findSet(node : DisjointSetNode<T>) : DisjointSetNode<T>
+    + Union(valueA : T, valueB : T) : void
+    + GetEnumerator() : IEnumerator<T>
+}
+
+class "DisjointSetNode<T>" {
+    + Value : T {get; set}
+    + Rank : int {get; set}
+    + Parent : DisjointSetNode<T> {get; set}
+    __
+    + <<constructor>> DisjointSetNode()
+    + <<constructor>> DisjointSetNode(value : T)
+    + <<constructor>> DisjointSetNode(value : T, rank : int)
+    __
+    + ToString() : string
+}
+
+class "Dictionary<TKey, TValue>"
+interface "IEnumerable<T>"
+interface "IEnumerator<T>"
+
+"DisjointSet<T>" ..|> "IEnumerable<T>"
+"DisjointSet<T>" o-- "Dictionary<TKey, TValue>" : set
+"DisjointSet<T>" --> "DisjointSetNode<T>" : manages
+"DisjointSetNode<T>" --> "DisjointSetNode<T>" : Parent
+
+note right of "DisjointSet<T>"
+    Union-Find yapisi.
+    Path compression ve union by rank uygular.
+end note
+
+note bottom of "DisjointSetNode<T>"
+    Her elemanin temsilcisi ve rank bilgisi
+    dugum uzerinde tutulur.
+end note
+
+hide empty members
+
+@enduml

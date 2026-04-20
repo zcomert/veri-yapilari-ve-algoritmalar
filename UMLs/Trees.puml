@@ -1,0 +1,80 @@
+@startuml Trees
+
+class "Node<T>" {
+    + Value : T {get; set}
+    + Left : Node<T> {get; set}
+    + Right : Node<T> {get; set}
+    + IsLeaf : bool {get}
+    __
+    + <<constructor>> Node()
+    + <<constructor>> Node(value : T)
+    __
+    + ToString() : string
+}
+
+class "BinaryTree<T>" {
+    + Root : Node<T> {get; set}
+    + Count : int {get; set}
+    __
+    + <<constructor>> BinaryTree()
+    + <<constructor>> BinaryTree(collection : IEnumerable<T>)
+    __
+    + Insert(value : T) : T
+    + {static} PreOrder(root : Node<T>, list : List<Node<T>>) : List<Node<T>>
+    + {static} InOrder(root : Node<T>, list : List<Node<T>>) : List<Node<T>>
+    + {static} PostOrder(root : Node<T>, list : List<Node<T>>) : List<Node<T>>
+    + {static} InOrderIterationTraverse(root : Node<T>) : List<T>
+    + {static} LevelOrderTraverse(root : Node<T>) : List<Node<T>>
+    + GetEnumerator() : IEnumerator
+    + {static} NumberOfHalfNodes(root : Node<T>) : int
+    + {static} NumberOfFullNodes(root : Node<T>) : int
+    + {static} NumberOfLeafs(root : Node<T>) : int
+}
+
+class "BST<T>" {
+    + Root : Node<T> {get; set}
+    __
+    + <<constructor>> BST()
+    + <<constructor>> BST(node : Node<T>)
+    + <<constructor>> BST(collection : IEnumerable<T>)
+    __
+    + Add(value : T) : void
+    + FindMin(root : Node<T>) : T
+    + FindMin() : T
+    + FindMax() : T
+    + Find(key : T) : Node<T>
+    + Remove(root : Node<T>, key : T) : Node<T>
+}
+
+class "List<T>"
+class "Queue<T>"
+class "Stack<T>"
+interface "IEnumerable"
+interface "IEnumerable<T>"
+interface "IEnumerator"
+interface "IComparable"
+
+"BinaryTree<T>" ..|> "IEnumerable"
+"BinaryTree<T>" o-- "Node<T>" : Root
+"BST<T>" o-- "Node<T>" : Root
+"Node<T>" --> "Node<T>" : Left
+"Node<T>" --> "Node<T>" : Right
+"BinaryTree<T>" ..> "List<T>" : <<uses>>
+"BinaryTree<T>" ..> "Queue<T>" : <<uses>>
+"BinaryTree<T>" ..> "Stack<T>" : <<uses>>
+"BST<T>" ..> "IComparable" : <<constraint>>
+
+note right of "BinaryTree<T>"
+    Duz ikili agac yapisi.
+    Ekleme islemi level-order bos konuma yapilir.
+end note
+
+note right of "BST<T>"
+    Ikili arama agaci.
+    Dugum yerlestirme ve silme islemlerinde
+    sirali agac kurallarini izler.
+end note
+
+hide empty members
+
+@enduml

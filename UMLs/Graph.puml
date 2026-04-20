@@ -1,0 +1,260 @@
+@startuml Graph
+
+interface "IGraph<T>" {
+    + isWeightedGraph : bool {get}
+    + Count : int {get}
+    + ReferenceVertex : IGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IGraphVertex<T>> {get}
+    + Edges(key : T) : IEnumerable<T>
+    + Clone() : IGraph<T>
+    + ContainsVertex(key : T) : bool
+    + GetVertex(key : T) : IGraphVertex<T>
+    + HasEdge(source : T, dest : T) : bool
+    + AddVertex(key : T) : void
+    + RemoveVertex(key : T) : void
+    + RemoveEdge(source : T, dest : T) : void
+}
+
+interface "IDiGraph<T>" {
+    + ReferenceVertex : IDiGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IDiGraphVertex<T>> {get}
+    + GetVertex(key : T) : IDiGraphVertex<T>
+}
+
+interface "IGraphVertex<T>" {
+    + Key : T {get}
+    + Edges : IEnumerable<IEdge<T>> {get}
+    + GetEdge(targetVertex : IGraphVertex<T>) : IEdge<T>
+}
+
+interface "IDiGraphVertex<T>" {
+    + OutEdges : IEnumerable<IDiEdge<T>> {get}
+    + InEdges : IEnumerable<IDiEdge<T>> {get}
+    + OutEdgesCount : int {get}
+    + InEdgesCount : int {get}
+    + GetOutEdge(targetVertex : IDiGraphVertex<T>) : IDiEdge<T>
+}
+
+interface "IEdge<T>" {
+    + TargetVertexKey : T {get}
+    + TargetVertex : IGraphVertex<T> {get}
+    + Weight<W>() : W
+}
+
+interface "IDiEdge<T>" {
+    + TargetVertex : IDiGraphVertex<T> {get}
+}
+
+class "Edge<T, TW>" {
+    - weight : object
+    + TargetVertexKey : T {get}
+    + TargetVertex : IGraphVertex<T> {get}
+    __
+    + <<constructor>> Edge(target : IGraphVertex<T>, weight : TW)
+    __
+    + Weight<W>() : W
+    + ToString() : string
+}
+
+class "DiEdge<T, TW>" {
+    - weight : object
+    + TargetVertex : IDiGraphVertex<T> {get}
+    + TargetVertexKey : T {get}
+    __
+    + <<constructor>> DiEdge(target : IDiGraphVertex<T>, weight : TW)
+    __
+    + Weight<W>() : W
+    + ToString() : string
+}
+
+class "Graph<T>" {
+    - vertices : Dictionary<T, GraphVertex<T>>
+    + isWeightedGraph : bool {get}
+    + Count : int {get}
+    + ReferenceVertex : IGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IGraphVertex<T>> {get}
+    __
+    + <<constructor>> Graph()
+    + <<constructor>> Graph(collection : IEnumerable<T>)
+    __
+    + AddVertex(key : T) : void
+    + Clone() : Graph<T>
+    + ContainsVertex(key : T) : bool
+    + Edges(key : T) : IEnumerable<T>
+    + GetEnumerator() : IEnumerator<T>
+    + GetVertex(key : T) : IGraphVertex<T>
+    + HasEdge(source : T, dest : T) : bool
+    + AddEdge(source : T, dest : T) : void
+    + RemoveEdge(source : T, dest : T) : void
+    + RemoveVertex(key : T) : void
+}
+
+class "DiGraph<T>" {
+    - vertices : Dictionary<T, DiGraphVertex<T>>
+    + ReferenceVertex : IDiGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IDiGraphVertex<T>> {get}
+    + isWeightedGraph : bool {get}
+    + Count : int {get}
+    __
+    + <<constructor>> DiGraph()
+    + <<constructor>> DiGraph(collection : IEnumerable<T>)
+    __
+    + AddVertex(key : T) : void
+    + Clone() : DiGraph<T>
+    + ContainsVertex(key : T) : bool
+    + Edges(key : T) : IEnumerable<T>
+    + GetEnumerator() : IEnumerator<T>
+    + GetVertex(key : T) : IDiGraphVertex<T>
+    + HasEdge(source : T, dest : T) : bool
+    + AddEdge(source : T, dest : T) : void
+    + RemoveEdge(source : T, dest : T) : void
+    + RemoveVertex(key : T) : void
+}
+
+class "WeightedGraph<T, TW>" {
+    - vertices : Dictionary<T, WeightedGraphVertex<T, TW>>
+    + isWeightedGraph : bool {get}
+    + Count : int {get}
+    + ReferenceVertex : IGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IGraphVertex<T>> {get}
+    __
+    + <<constructor>> WeightedGraph()
+    + <<constructor>> WeightedGraph(collection : IEnumerable<T>)
+    __
+    + AddVertex(key : T) : void
+    + Clone() : WeightedGraph<T, TW>
+    + ContainsVertex(key : T) : bool
+    + Edges(key : T) : IEnumerable<T>
+    + GetEnumerator() : IEnumerator<T>
+    + GetVertex(key : T) : IGraphVertex<T>
+    + HasEdge(source : T, dest : T) : bool
+    + AddEdge(source : T, dest : T, weight : TW) : void
+    + RemoveEdge(source : T, dest : T) : void
+    + RemoveVertex(key : T) : void
+}
+
+class "WeightedDiGraph<T, TW>" {
+    - vertices : Dictionary<T, WeightedDiGraphVertex<T, TW>>
+    + ReferenceVertex : IDiGraphVertex<T> {get}
+    + VerticesAsEnumberable : IEnumerable<IDiGraphVertex<T>> {get}
+    + isWeightedGraph : bool {get}
+    + Count : int {get}
+    __
+    + <<constructor>> WeightedDiGraph()
+    + <<constructor>> WeightedDiGraph(collection : IEnumerable<T>)
+    __
+    + AddVertex(key : T) : void
+    + Clone() : WeightedDiGraph<T, TW>
+    + ContainsVertex(key : T) : bool
+    + Edges(key : T) : IEnumerable<T>
+    + GetEnumerator() : IEnumerator<T>
+    + GetVertex(key : T) : IDiGraphVertex<T>
+    + HasEdge(source : T, dest : T) : bool
+    + AddEdge(source : T, dest : T, weight : TW) : void
+    + RemoveEdge(source : T, dest : T) : void
+    + RemoveVertex(key : T) : void
+}
+
+class "MSTEdge<T, TW>" {
+    + Source : T {get}
+    + Destination : T {get}
+    + Weight : TW {get}
+    __
+    + <<constructor>> MSTEdge(source : T, destination : T, weight : TW)
+    __
+    + CompareTo(obj : object) : int
+    + ToString() : string
+}
+
+class "Kruskals<T, TW>" {
+    + FindMinimumSpanningTree(graph : IGraph<T>) : List<MSTEdge<T, TW>>
+    - dfs(currentVertex : IGraphVertex<T>, visitedVertices : HashSet<T>, visitedEdges : Dictionary<T, HashSet<T>>, edges : List<MSTEdge<T, TW>>) : void
+}
+
+class "Prims<T, TW>" {
+    + FindMinimumSpanningTree(graph : IGraph<T>) : List<MSTEdge<T, TW>>
+    - dfs(graph : IGraph<T>, currentVertex : IGraphVertex<T>, spNeighours : BinaryHeap<MSTEdge<T, TW>>, spVertices : HashSet<T>, spEdges : List<MSTEdge<T, TW>>) : void
+}
+
+class "BinaryHeap<T>"
+class "DisjointSet<T>"
+class "Dictionary<TKey, TValue>"
+class "List<T>"
+class "HashSet<T>"
+interface "IEnumerable<T>"
+interface "IEnumerator<T>"
+interface "IComparable"
+
+"IDiGraph<T>" --|> "IGraph<T>"
+"IDiGraphVertex<T>" --|> "IGraphVertex<T>"
+"IDiEdge<T>" --|> "IEdge<T>"
+
+"Graph<T>" ..|> "IGraph<T>"
+"DiGraph<T>" ..|> "IDiGraph<T>"
+"WeightedGraph<T, TW>" ..|> "IGraph<T>"
+"WeightedDiGraph<T, TW>" ..|> "IDiGraph<T>"
+"Edge<T, TW>" ..|> "IEdge<T>"
+"DiEdge<T, TW>" ..|> "IDiEdge<T>"
+"MSTEdge<T, TW>" ..|> "IComparable"
+
+"Graph<T>" ..> "IGraphVertex<T>" : returns
+"DiGraph<T>" ..> "IDiGraphVertex<T>" : returns
+"WeightedGraph<T, TW>" ..> "IGraphVertex<T>" : returns
+"WeightedDiGraph<T, TW>" ..> "IDiGraphVertex<T>" : returns
+
+"IGraphVertex<T>" ..> "IEdge<T>" : Edges
+"IDiGraphVertex<T>" ..> "IDiEdge<T>" : OutEdges/InEdges
+"Edge<T, TW>" --> "IGraphVertex<T>" : TargetVertex
+"DiEdge<T, TW>" --> "IDiGraphVertex<T>" : TargetVertex
+
+"Kruskals<T, TW>" ..> "IGraph<T>" : <<uses>>
+"Kruskals<T, TW>" ..> "IGraphVertex<T>" : <<traverses>>
+"Kruskals<T, TW>" ..> "MSTEdge<T, TW>" : <<creates>>
+"Kruskals<T, TW>" ..> "BinaryHeap<T>" : <<uses>>
+"Kruskals<T, TW>" ..> "DisjointSet<T>" : <<uses>>
+
+"Prims<T, TW>" ..> "IGraph<T>" : <<uses>>
+"Prims<T, TW>" ..> "IGraphVertex<T>" : <<traverses>>
+"Prims<T, TW>" ..> "MSTEdge<T, TW>" : <<creates>>
+"Prims<T, TW>" ..> "BinaryHeap<T>" : <<uses>>
+
+"Edge<T, TW>" ..> "IComparable" : <<constraint TW>>
+"WeightedGraph<T, TW>" ..> "IComparable" : <<constraint TW>>
+"WeightedDiGraph<T, TW>" ..> "IComparable" : <<constraint TW>>
+"MSTEdge<T, TW>" ..> "IComparable" : <<constraint TW>>
+"Kruskals<T, TW>" ..> "IComparable" : <<constraint T,TW>>
+"Prims<T, TW>" ..> "IComparable" : <<constraint T,TW>>
+
+note right of "Graph<T>"
+    Yonlendirilmemis ve agirliksiz
+    adjacency-set grafik uygulamasi.
+end note
+
+note right of "DiGraph<T>"
+    Yonlu ve agirliksiz grafik.
+    InEdges ve OutEdges ayri tutulur.
+end note
+
+note right of "WeightedGraph<T, TW>"
+    Yonlendirilmemis agirlikli grafik.
+    Kenar agirliklari vertex icindeki
+    dictionary yapisinda saklanir.
+end note
+
+note right of "WeightedDiGraph<T, TW>"
+    Yonlu agirlikli grafik.
+end note
+
+note bottom of "Kruskals<T, TW>"
+    MST icin kenarlari siralayip
+    DisjointSet ile cevrim kontrolu yapar.
+end note
+
+note bottom of "Prims<T, TW>"
+    MST icin sinir kenarlarini heap ile
+    secerek agaci buyutur.
+end note
+
+hide empty members
+
+@enduml

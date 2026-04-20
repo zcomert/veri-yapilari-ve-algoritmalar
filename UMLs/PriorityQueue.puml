@@ -1,0 +1,113 @@
+@startuml PriorityQueue
+
+abstract class "BHeap<T>" {
+    + Array : Array<T> {get}
+    # position : int
+    + Count : int {get}
+    __
+    + <<constructor>> BHeap(size : int = 128)
+    + <<constructor>> BHeap(collection : IEnumerable<T>)
+    __
+    + GetLeftChildIndex(i : int) : int
+    # GetRightChildIndex(i : int) : int
+    + GetParentIndex(i : int) : int
+    # HasLeftChild(i : int) : bool
+    # HasRightChild(i : int) : bool
+    # IsRoot(i : int) : bool
+    # GetLeftChild(i : int) : T
+    # GetRightChild(i : int) : T
+    # GetParent(i : int) : T
+    + IsEmpty() : bool
+    + Peek() : T
+    + Swap(first : int, second : int) : void
+    + Add(value : T) : void
+    + DeleteMinMax() : T
+    # HeapifyUp() : void
+    # HeapifyDown() : void
+    + GetEnumerator() : IEnumerator<T>
+}
+
+class "MinHeap<T>" {
+    + <<constructor>> MinHeap(size : int = 128)
+    + <<constructor>> MinHeap(collection : IEnumerable<T>)
+    __
+    # HeapifyUp() : void
+    # HeapifyDown() : void
+}
+
+class "MaxHeap<T>" {
+    + <<constructor>> MaxHeap(size : int = 128)
+    + <<constructor>> MaxHeap(collection : IEnumerable<T>)
+    __
+    # HeapifyUp() : void
+    # HeapifyDown() : void
+}
+
+class "BinaryHeap<T>" {
+    + Array : T[] {get}
+    - position : int
+    + Count : int {get}
+    - comparer : IComparer<T>
+    - isMax : bool
+    __
+    + <<constructor>> BinaryHeap(sortDirection : SortDirection = Asceding)
+    + <<constructor>> BinaryHeap(sortDirection : SortDirection, initial : IEnumerable<T>)
+    + <<constructor>> BinaryHeap(sortDirection : SortDirection, comparer : IComparer<T>)
+    + <<constructor>> BinaryHeap(sortDirection : SortDirection, initial : IEnumerable<T>, comparer : IComparer<T>)
+    __
+    - GetLeftChildIndex(i : int) : int
+    - GetRightChildIndex(i : int) : int
+    - GetParentIndex(i : int) : int
+    - HasLeftChild(i : int) : bool
+    - HasRightChild(i : int) : bool
+    - IsRoot(i : int) : bool
+    - GetLeftChild(i : int) : T
+    - GetRightChild(i : int) : T
+    - GetParent(i : int) : T
+    + IsEmpty() : bool
+    + Peek() : T
+    + Swap(first : int, second : int) : void
+    + Add(value : T) : void
+    + DeleteMinMax() : T
+    # HeapifyUp() : void
+    # HeapifyDown() : void
+    + GetEnumerator() : IEnumerator<T>
+}
+
+class "Array<T>"
+class "CustomComparer<T>"
+interface "IComparer<T>"
+interface "IEnumerable<T>"
+interface "IEnumerator<T>"
+interface "IComparable"
+enum "SortDirection" {
+    Asceding
+    Descending
+}
+
+"BHeap<T>" ..|> "IEnumerable<T>"
+"BinaryHeap<T>" ..|> "IEnumerable<T>"
+"MinHeap<T>" --|> "BHeap<T>"
+"MaxHeap<T>" --|> "BHeap<T>"
+
+"BHeap<T>" o-- "Array<T>" : Array
+"BinaryHeap<T>" ..> "IComparer<T>" : comparer
+"BinaryHeap<T>" ..> "CustomComparer<T>" : <<creates>>
+"BinaryHeap<T>" ..> "SortDirection" : <<uses>>
+"BHeap<T>" ..> "IComparable" : <<constraint>>
+"BinaryHeap<T>" ..> "IComparable" : <<constraint>>
+
+note right of "BHeap<T>"
+    Soyut ikili yigin altyapisi.
+    MinHeap ve MaxHeap bu siniftan turetilir.
+end note
+
+note right of "BinaryHeap<T>"
+    Ayrik bir heap uygulamasidir.
+    Siralama yonunu ve comparer nesnesini
+    constructor uzerinden alir.
+end note
+
+hide empty members
+
+@enduml
