@@ -1,4 +1,4 @@
-using Array;
+ï»¿using Array;
 
 namespace ArrayTests;
 
@@ -22,7 +22,7 @@ public class ArrayTests
         var arr = new Array<int>(2);
         arr.Add(1);
         arr.Add(2);
-        arr.Add(3); // Should trigger resize
+        arr.Add(3);
 
         Assert.Equal(3, arr.Length);
         Assert.Equal(1, arr[0]);
@@ -84,25 +84,25 @@ public class ArrayTests
 
         Assert.Equal(2, arr.Length);
     }
+
     [Fact]
     public void Capacity_ShouldReflectInternalArraySize_AndGrowOnResize()
     {
         var arr = new Array<int>(2);
-        // Baþlangýç kapasitesi 2 olmalý
         Assert.Equal(2, arr.Capacity);
 
         arr.Add(1);
         arr.Add(2);
-        // Kapasite hala 2 olmalý (henüz resize olmadý)
         Assert.Equal(2, arr.Capacity);
 
-        arr.Add(3); // Resize tetiklenir (2 -> 4)
+        arr.Add(3);
         Assert.Equal(4, arr.Capacity);
 
         arr.Add(4);
-        arr.Add(5); // Resize tetiklenir (4 -> 8)
+        arr.Add(5);
         Assert.Equal(8, arr.Capacity);
     }
+
     [Fact]
     public void AddRange_ShouldAddAllItems_AndResizeIfNeeded()
     {
@@ -116,7 +116,18 @@ public class ArrayTests
         Assert.Equal(10, arr[1]);
         Assert.Equal(15, arr[2]);
         Assert.Equal(20, arr[3]);
-        Assert.True(arr.Capacity >= 4); // Kapasite en az 4 olmalý (gerekirse daha fazla)
+        Assert.True(arr.Capacity >= 4);
+    }
+
+    [Fact]
+    public void AddRange_ShouldHandleEmptyCollection()
+    {
+        var arr = new Array<int>(2);
+
+        arr.AddRange(System.Array.Empty<int>());
+
+        Assert.Equal(0, arr.Length);
+        Assert.Equal(2, arr.Capacity);
     }
 
     [Fact]
@@ -137,6 +148,33 @@ public class ArrayTests
     }
 
     [Fact]
+    public void Insert_ShouldSupportBeginning_AndEndPositions()
+    {
+        var arr = new Array<int>();
+        arr.Add(2);
+        arr.Add(3);
+
+        arr.Insert(0, 1);
+        arr.Insert(arr.Length, 4);
+
+        Assert.Equal(4, arr.Length);
+        Assert.Equal(1, arr[0]);
+        Assert.Equal(2, arr[1]);
+        Assert.Equal(3, arr[2]);
+        Assert.Equal(4, arr[3]);
+    }
+
+    [Fact]
+    public void Insert_ShouldThrow_WhenIndexIsOutOfRange()
+    {
+        var arr = new Array<int>();
+        arr.Add(1);
+
+        Assert.Throws<IndexOutOfRangeException>(() => arr.Insert(-1, 0));
+        Assert.Throws<IndexOutOfRangeException>(() => arr.Insert(2, 0));
+    }
+
+    [Fact]
     public void IndexOf_Test()
     {
         var arr = new Array<int>();
@@ -149,6 +187,17 @@ public class ArrayTests
 
         Assert.Equal(1, index);
         Assert.Equal(-1, index2);
+    }
+
+    [Fact]
+    public void IndexOf_ShouldReturnFirstMatch_ForDuplicateValues()
+    {
+        var arr = new Array<int>();
+        arr.AddRange(new[] { 4, 7, 7, 9 });
+
+        var index = arr.IndexOf(7);
+
+        Assert.Equal(1, index);
     }
 
     [Fact]
@@ -167,6 +216,21 @@ public class ArrayTests
     }
 
     [Fact]
+    public void Remove_ShouldRemoveFirstMatchingItem()
+    {
+        var arr = new Array<int>();
+        arr.AddRange(new[] { 1, 2, 2, 3 });
+
+        var removed = arr.Remove(2);
+
+        Assert.True(removed);
+        Assert.Equal(3, arr.Length);
+        Assert.Equal(1, arr[0]);
+        Assert.Equal(2, arr[1]);
+        Assert.Equal(3, arr[2]);
+    }
+
+    [Fact]
     public void RemoveAt_Test()
     {
         var arr = new Array<int>();
@@ -182,6 +246,20 @@ public class ArrayTests
     }
 
     [Fact]
+    public void RemoveAt_ShouldReturnRemovedValue()
+    {
+        var arr = new Array<int>();
+        arr.AddRange(new[] { 10, 20, 30 });
+
+        var removed = arr.RemoveAt(1);
+
+        Assert.Equal(20, removed);
+        Assert.Equal(2, arr.Length);
+        Assert.Equal(10, arr[0]);
+        Assert.Equal(30, arr[1]);
+    }
+
+    [Fact]
     public void IEnumerable_Test()
     {
         var arr = new Array<int>(8);
@@ -190,8 +268,8 @@ public class ArrayTests
         arr.Add(3);
 
         var newArr = new Array<int>(arr.Length);
-        foreach(var item in arr)
-            newArr.Add((int) item);
+        foreach (var item in arr)
+            newArr.Add(item);
 
         Assert.Equal(1, newArr[0]);
         Assert.Equal(2, newArr[1]);
@@ -199,7 +277,20 @@ public class ArrayTests
         Assert.Equal(3, newArr.Length);
     }
 
-    
+    [Fact]
+    public void IEnumerable_ShouldIterateOnlyAddedItems()
+    {
+        var arr = new Array<int>(8);
+        arr.Add(5);
+        arr.Add(10);
+
+        var values = arr.ToList();
+
+        Assert.Equal(2, values.Count);
+        Assert.Equal(5, values[0]);
+        Assert.Equal(10, values[1]);
+    }
+
     [Fact]
     public void Sort_Test()
     {
@@ -216,5 +307,18 @@ public class ArrayTests
         Assert.Equal(2, newArray[2]);
         Assert.Equal(4, newArray[3]);
     }
-}
 
+    [Fact]
+    public void Sort_ShouldHandleDuplicateValues()
+    {
+        var arr = new Array<int>();
+        arr.AddRange(new[] { 3, 1, 3, 2 });
+
+        var sorted = arr.Sort();
+
+        Assert.Equal(1, sorted[0]);
+        Assert.Equal(2, sorted[1]);
+        Assert.Equal(3, sorted[2]);
+        Assert.Equal(3, sorted[3]);
+    }
+}

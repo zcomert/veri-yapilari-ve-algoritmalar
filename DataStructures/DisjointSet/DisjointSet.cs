@@ -3,6 +3,7 @@
 namespace DisjointSet;
 
 public class DisjointSet<T> : IEnumerable<T>
+    where T : notnull
 {
     private Dictionary<T, DisjointSetNode<T>> set
         = new Dictionary<T, DisjointSetNode<T>>();

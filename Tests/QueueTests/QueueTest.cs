@@ -62,5 +62,26 @@ namespace QueueTests
             Assert.Equal(1, queue.Count);
             Assert.Equal(3, queue.Peek());
         }
+
+        [Fact]
+        public void QueueArray_ShouldUpdateIsEmpty_AndCountCorrectly()
+        {
+            IQueue<int> queue = new QueueArray<int>();
+
+            Assert.True(queue.IsEmpty);
+            Assert.Equal(0, queue.Count);
+
+            queue.Enqueue(42);
+
+            Assert.False(queue.IsEmpty);
+            Assert.Equal(1, queue.Count);
+            Assert.Equal(42, queue.Peek());
+
+            var removed = queue.Dequeu();
+
+            Assert.Equal(42, removed);
+            Assert.True(queue.IsEmpty);
+            Assert.Equal(0, queue.Count);
+        }
     }
 }
